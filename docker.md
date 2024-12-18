@@ -2,13 +2,12 @@
 title: Docker
 description: 
 published: true
-date: 2024-12-18T10:37:14.577Z
+date: 2024-12-18T10:37:58.763Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T10:35:53.613Z
 ---
 
-# Docker
 ## Creating container image using Docker
 
 To Docker hub
