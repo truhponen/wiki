@@ -2,13 +2,13 @@
 title: Docker
 description: 
 published: true
-date: 2024-12-18T10:37:58.763Z
+date: 2024-12-18T10:38:22.158Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T10:35:53.613Z
 ---
 
-## Creating container image using Docker
+# Creating container image using Docker
 
 To Docker hub
 
@@ -26,7 +26,7 @@ To Git hub
 - "--push" image
 - "." actions in project folder
 
-## Creating container for PROXMOX
+# Creating container for PROXMOX
 
 Snippets combined from 
 - https://docs.docker.com/engine/install/debian/
