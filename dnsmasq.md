@@ -2,7 +2,7 @@
 title: DNSmasq
 description: 
 published: true
-date: 2024-12-18T10:24:53.957Z
+date: 2024-12-18T10:29:24.703Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T10:24:53.957Z
@@ -31,11 +31,9 @@ dateCreated: 2024-12-18T10:24:53.957Z
 
 6. Add configs
 
-    `domain-needed`
-
-    `local=/koti/`
-
-    `address=/koti/192.168.68.3`
+	`domain-needed`
+  `local=/koti/`
+  `address=/koti/192.168.68.3`
 
 7. Restart DNSmasq
 
