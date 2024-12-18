@@ -2,7 +2,7 @@
 title: BTRFS
 description: 
 published: true
-date: 2024-12-18T10:00:37.028Z
+date: 2024-12-18T10:01:33.517Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T09:59:27.439Z
@@ -13,7 +13,7 @@ Assuming you have two btrfs-partitions
 
 1. Check btrfs filesystem
 
-    `btrfs filesystem show`
+    <kbd>`btrfs filesystem show`</kbd>
 
 2. Create folder
 
