@@ -2,13 +2,12 @@
 title: DNSmasq
 description: 
 published: true
-date: 2024-12-18T10:29:24.703Z
+date: 2024-12-18T10:38:50.866Z
 tags: 
 editor: markdown
 dateCreated: 2024-12-18T10:24:53.957Z
 ---
 
-# DNSmasq
 1. Update
 
        apt-get update
