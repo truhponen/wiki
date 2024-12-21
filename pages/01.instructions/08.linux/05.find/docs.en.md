@@ -6,6 +6,8 @@ taxonomy:
         - docs
 ---
 
-### Run in background
+### Find
 
-https://linuxize.com/post/how-to-run-linux-commands-in-background/
+Find all files that are over 100Mb
+
+    find / -type f -size +100M
