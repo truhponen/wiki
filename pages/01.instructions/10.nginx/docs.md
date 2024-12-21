@@ -3,6 +3,7 @@ title: NGINX
 taxonomy:
     category:
         - docs
+child_type: docs
 ---
 
 > <pre><code>events {}
