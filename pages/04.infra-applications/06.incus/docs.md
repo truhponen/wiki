@@ -4,6 +4,7 @@ taxonomy:
     category:
         - docs
 child_type: docs
+redirect: /incus
 ---
 
 Install Incus 
