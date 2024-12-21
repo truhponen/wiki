@@ -6,6 +6,6 @@ taxonomy:
 child_type: docs
 ---
 
-### Chapter 2
+### Chapter
 
 # Infra applications
