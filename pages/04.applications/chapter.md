@@ -1,5 +1,5 @@
 ---
-title: Advanced
+title: Applications
 taxonomy:
     category:
         - docs
