@@ -3,8 +3,6 @@ title: 'Track temperature'
 date: '19:47 21-12-2024'
 ---
 
-# Temperature tracking
-
 Temperature tracking is process that transfers temperature information from sensors to Home Assistant and other applications.
 
 1. Temperature is tracked with [https://www.clasohlson.com/fi/Lampotila-anturi-kosteusmittari/p/36-6726-1](Clas Ohlson's) and [https://www.suomenlampomittari.fi/tuotteet/lahetin-mittarille-7410/](Suomen Lämpömittari's) weather station sensors which send information with 433 MHz radio.
