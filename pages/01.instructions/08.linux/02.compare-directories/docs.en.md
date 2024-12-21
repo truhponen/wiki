@@ -6,10 +6,9 @@ taxonomy:
         - docs
 ---
 
-## Size of directory
+### Compare directories
 
-    du -sh /var
+    diff -qr dir-1 dir-2
 
-* s = only the total size
-* h = sizes in a human-readable format
-* /var - The path to the directory you want to get the size
+* report only differences
+* recursive
