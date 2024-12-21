@@ -5,50 +5,64 @@ taxonomy:
         - docs
 ---
 
----
-title: DNSmasq
-description: 
-published: true
-date: 2024-12-18T10:38:50.866Z
-tags: 
-editor: markdown
-dateCreated: 2024-12-18T10:24:53.957Z
----
+# Creating container image using Docker
 
-1. Update
+To Docker hub
 
-       apt-get update
+    docker buildx build -t truhponen/my-departures:latest --platform linux/arm64 --push .
+        
+To Git hub
 
-2. Install
+    sudo docker buildx build -t ghcr.io/truhponen/my-departures:latest --platform linux/arm64 --push .
 
-       apt-get install dnsmasq
 
-3. Edit
+- "Docker buildx build" to create Pi + Linux compliant image on Windows
+- "-t ghcr.io/truhponen/" to Git hub **OR** "-t truhponen/" to Docker hub
+- "my-departures:latest" to add right tag
+- "--platform linux/arm64" to make image Pi + Linux compliant
+- "--push" image
+- "." actions in project folder
 
-       nano /etc/dnsmasq.conf
+# Creating container for PROXMOX
 
-4. Uncomment additional config file
+Snippets combined from 
+- https://docs.docker.com/engine/install/debian/
+- https://docs.portainer.io/start/install-ce/server/docker/linux
 
-    `conf-file=/etc/dnsmasq.more.conf`
+1. Create Debian Container. Make it small first.
 
-5. Create additional config file
+    * cores: 1
 
-       nano /etc/dnsmasq.more.conf
+    * memory 1024
 
-6. Add configs
+    * swap 1024
 
-	`domain-needed`
-  `local=/koti/`
-  `address=/koti/192.168.68.3`
+    * disk 4Gb (you cannot in practice decrease)
 
-7. Restart DNSmasq
+2. Add Docker repository
 
-       systemctl restart dnsmasq
+        # Add Docker's official GPG key:
+        apt-get update
+        apt-get install ca-certificates curl gnupg
+        install -m 0755 -d /etc/apt/keyrings
+        curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+        chmod a+r /etc/apt/keyrings/docker.gpg
+        
+        # Add the repository to Apt sources:
+        echo \
+          "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian \
+          "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \
+          tee /etc/apt/sources.list.d/docker.list > /dev/null
+        apt-get update
 
-8. Check status of DNSmasq
+2. Install Docker
 
-       systemctl status dnsmasq
+        apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-9. Test
+3. Create Portainer volume
 
-       nslookup tamakin.koti 192.168.68.102
+        docker volume create portainer_data
+
+4. Install Portainer container
+
+        docker run -d -p 9000:9000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
