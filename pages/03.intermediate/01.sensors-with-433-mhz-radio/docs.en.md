@@ -13,7 +13,7 @@ media_order: ClasOhlsonSensori.png
 
 #### Clas Ohlson Sensor
 
-![Clas Ohlson Sensor](ClasOhlsonSensori.png "ClasOhlsonSensori")
+![Clas Ohlson Sensor](ClasOhlsonSensori.png =100x20 "ClasOhlsonSensori")
 
 #### Suomen Lämpömittari Sensor
-![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg "SuomenLampomittariSensori")
+![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg =100x20 "SuomenLampomittariSensori")
