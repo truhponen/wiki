@@ -6,9 +6,6 @@ taxonomy:
         - docs
 ---
 
-### Compare directories
+### Count amount of files
 
-    diff -qr dir-1 dir-2
-
-* report only differences
-* recursive
+    ls -l /oricopool-1/media/documents/photos | wc -l
