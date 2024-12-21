@@ -6,6 +6,6 @@ taxonomy:
         - docs
 ---
 
-### Count amount of files
+### Run in background
 
-    ls -l /oricopool-1/media/documents/photos | wc -l
+https://linuxize.com/post/how-to-run-linux-commands-in-background/
