@@ -5,6 +5,12 @@ routes:
     default: /proxmox
 ---
 
-Proxmox is Debian [Linux](/linux) based virtualization solution.
+Proxmox is Debian [Linux](/linux) based virtualization cluster. Promox [cluster](/https://pve.proxmox.com/pve-docs/chapter-pvecm.html) consists three [computers](/amd64-computers). Three computers are needed to have [quorum](/https://pve.proxmox.com/pve-docs/chapter-pvecm.html).
 
-https://proxmox.com/en/proxmox-virtual-environment/overview
+Proxmox is mainly used for running [LXC containers](/lxc).
+
+Current Proxmox cluster is not ["high availability"](https://pve.proxmox.com/pve-docs/chapter-ha-manager.html) cluster.
+
+###### Sources
+_https://proxmox.com/en/proxmox-virtual-environment/overview_
+_https://pve.proxmox.com/pve-docs/_
