@@ -1,12 +1,12 @@
 ---
-title: Intermediate
+title: Infrastructure
 taxonomy:
-    category: docs
+    category:
+        - docs
 child_type: docs
 ---
 
-### Chapter 2
+### Chapter 1
 
-# Intermediate
+# Infrastructure
 
-Delve deeper into more **complex** topics
