@@ -6,12 +6,38 @@ taxonomy:
         - docs
 ---
 
-## ZFS NFS
+## Mounting NFS drive
 
-Install kernel server
+Followed these instructions:
+* https://cloudinfrastructureservices.co.uk/how-to-install-nfs-on-debian-11-server/
+* https://www.atlantic.net/dedicated-server-hosting/how-to-install-and-configure-nfs-server-on-debian-11/
 
-    apt install nfs-kernel-server
+### Steps
 
-Set sharenfs value
+1. Create folder
 
-    zfs set sharenfs="rw=@192.168.68.0/24" oricopool-1/backup
+2. Add to "exports"-file...
+
+       sudo nano /etc/exports
+
+3. ... a statement that allows NFS-connections to folder
+
+        /nfs/postgres 192.168.68.0/24(rw,sync,no_subtree_check,no_root_squash)
+
+4. Restart NFS server
+
+        sudo systemctl restart nfs-server
+        
+5. Create volume in Docker / Portainer
+
+   Use NFS volume
+
+       TRUE
+
+   Address
+
+       192.168.68.118
+
+   Mount point
+
+       :/nfs/whisper
