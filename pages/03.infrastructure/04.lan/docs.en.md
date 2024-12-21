@@ -8,3 +8,7 @@ routes:
     default: /lan
 ---
 
+LAN consists:
+
+* TP-link Deco mesh routers
+* ZyXEL GS-105B and GS-108B v3 switches
