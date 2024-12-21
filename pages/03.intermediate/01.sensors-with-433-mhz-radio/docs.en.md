@@ -16,4 +16,5 @@ media_order: ClasOhlsonSensori.png
 ![Clas Ohlson Sensor](ClasOhlsonSensori.png "ClasOhlsonSensori")
 
 #### Suomen Lämpömittari Sensor
+
 ![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg "SuomenLampomittariSensori")
