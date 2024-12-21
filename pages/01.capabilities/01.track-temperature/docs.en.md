@@ -11,7 +11,7 @@ routes:
 
 Temperature tracking is process that transfers temperature information from sensors to Home Assistant and other applications.
 
-1. Temperature is tracked with [Clas Ohlson's](https://www.clasohlson.com/fi/Lampotila-anturi-kosteusmittari/p/36-6726-1)  and [Suomen Lämpömittari's](https://www.suomenlampomittari.fi/tuotteet/lahetin-mittarille-7410/) weather station sensors which send information with 433 MHz radio.
+1. Temperature is tracked with weather station [sensors with 433 MHz radio](/sensors-with-433-mhz-radio).
 2. Information sent by sensors is captured with [Lilygo LoRa32 V2.1_1.6](https://lilygo.cc/products/lora3) which runs [Open MQTT Gateway](/open-mqtt-gateway)
 3. [Open MQTT Gateway](/open-mqtt-gateway) send information by wlan to [Mosquitto](/mosquitto) MQTT server
 4. [Mosquitto](/mosquitto) publishes information to  [Home Assistant](/home-assistant) and [Influx DB](influx-db)
