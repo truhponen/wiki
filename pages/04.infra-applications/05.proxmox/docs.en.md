@@ -11,6 +11,8 @@ Proxmox is mainly used for running [LXC containers](/lxc).
 
 Current Proxmox cluster is not ["high availability"](https://pve.proxmox.com/pve-docs/chapter-ha-manager.html) cluster.
 
-###### Sources
+**Sources**
+
 _[https://proxmox.com/en/proxmox-virtual-environment/overview](https://proxmox.com/en/proxmox-virtual-environment/overview)_
+
 _[https://pve.proxmox.com/pve-docs/](https://pve.proxmox.com/pve-docs/)_
