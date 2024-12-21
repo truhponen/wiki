@@ -3,6 +3,7 @@ title: BTRFS
 taxonomy:
     category:
         - docs
+child_type: docs
 ---
 
 # Add new raid1 btrfs filesystem
