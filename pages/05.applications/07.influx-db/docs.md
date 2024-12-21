@@ -4,6 +4,8 @@ taxonomy:
     category:
         - docs
 child_type: docs
+routes:
+    default: /influx-db
 ---
 
 # Delete
