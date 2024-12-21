@@ -5,3 +5,4 @@ routes:
     default: /ansible
 ---
 
+Ansible is used to manage [Docker container](/docker), [LXC container](/lcx), [computers](/amd64-computers) 
