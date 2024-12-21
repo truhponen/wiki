@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-# Creating container image using Docker
+## Creating container image using Docker
 
 To Docker hub
 
@@ -23,7 +23,7 @@ To Git hub
 - "--push" image
 - "." actions in project folder
 
-# Creating container for PROXMOX
+## Creating container for PROXMOX
 
 Snippets combined from 
 - https://docs.docker.com/engine/install/debian/
