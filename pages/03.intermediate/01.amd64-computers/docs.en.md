@@ -13,6 +13,7 @@ There is total 5 AMD64 computers.
 * 4 computers are different types of Dell Optiplex MFF-computers
 * 1 computer is Lenovo Thinkcentre MFF-computer
 
-3 computers form [Proxmox](/proxmox) cluster.
+Computers are used for clusters.
 
-2 computers form [Kubernetes](/kubernetes) cluster.
+* 3 computers form [Proxmox](/proxmox) cluster.
+* 2 computers form [Kubernetes](/kubernetes) cluster.
