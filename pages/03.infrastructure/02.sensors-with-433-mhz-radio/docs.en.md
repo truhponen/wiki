@@ -17,4 +17,4 @@ media_order: ClasOhlsonSensori.png
 
 #### Suomen Lämpömittari Sensor
 
-![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg "SuomenLampomittariSensori")
+![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg "SuomenLampomittariSensori") 
