@@ -1,6 +1,8 @@
 ---
 title: LXC
 date: '22:01 21-12-2024'
+routes:
+    default: /lxc
 ---
 
 LXCs (Linux containers) are run in [Proxmox](/proxmox).
