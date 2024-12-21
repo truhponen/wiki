@@ -1,5 +1,5 @@
 ---
-title: Instructions
+title: 'Operating systems'
 taxonomy:
     category:
         - docs
