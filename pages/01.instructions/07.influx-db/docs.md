@@ -3,6 +3,7 @@ title: 'Influx DB'
 taxonomy:
     category:
         - docs
+child_type: docs
 ---
 
 # Delete
