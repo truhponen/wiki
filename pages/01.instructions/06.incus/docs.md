@@ -3,6 +3,7 @@ title: Incus
 taxonomy:
     category:
         - docs
+child_type: docs
 ---
 
 Install Incus 
