@@ -7,6 +7,6 @@ routes:
 
 Proxmox Backup Server is used to backup [LXC containers](/lxc) that are running in [Proxmox](/proxmox).
 
-**Sources**
+**Sources:**
 
-_[https://proxmox.com/en/proxmox-backup-server/overview](https://proxmox.com/en/proxmox-backup-server/overview)_
+* _[https://proxmox.com/en/proxmox-backup-server/overview](https://proxmox.com/en/proxmox-backup-server/overview)_
