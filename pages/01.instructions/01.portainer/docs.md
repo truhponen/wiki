@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-# Installation / update
+## Installation / update
 Portainer documentation https://docs.portainer.io/start/install-ce/server/docker/linux#deployment
 
 1. Create network
@@ -36,7 +36,7 @@ Portainer documentation https://docs.portainer.io/start/install-ce/server/docker
        -v /config/cert/certificate.pem:/certs/portainer.crt -v /config/cert/key.pem:/certs/portainer.key \
        -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 
-# Common issues
+## Common issues
 
 * Bad Gateway from Cloudflare to Portainer is due to fact that Portainer container is not in same network with Cloudflared.
 
