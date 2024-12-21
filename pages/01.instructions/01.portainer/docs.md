@@ -19,11 +19,11 @@ Portainer documentation https://docs.portainer.io/start/install-ce/server/docker
 
 2. Stop current Portainer
 
-       docker stop portainer
+        docker stop portainer
 
 3. Remove current Portainer 
 
-       docker rm portainer
+        docker rm portainer
 
 4. Pull latest image
 
