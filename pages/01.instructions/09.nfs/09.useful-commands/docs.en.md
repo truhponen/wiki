@@ -6,12 +6,8 @@ taxonomy:
         - docs
 ---
 
-## NFS Client
+## Useful commands
 
-You need nfs-common
+Check applicable NSF config
 
-    apt-get install nfs-common -y
-
-Create mount
-
-    mount 192.168.68.118:/nfs /nfs
+    cat /var/lib/nfs/etab
