@@ -4,7 +4,8 @@ taxonomy:
     category:
         - docs
 child_type: docs
-redirect: /portainer
+routes:
+    default: /portainer
 ---
 
 ## Installation / update
