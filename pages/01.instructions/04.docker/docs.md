@@ -3,6 +3,7 @@ title: Docker
 taxonomy:
     category:
         - docs
+child_type: docs
 ---
 
 ## Creating container image using Docker
