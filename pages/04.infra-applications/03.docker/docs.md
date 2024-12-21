@@ -4,7 +4,8 @@ taxonomy:
     category:
         - docs
 child_type: docs
-redirect: /docker
+routes:
+    default: /docker
 ---
 
 ## Creating container image using Docker
