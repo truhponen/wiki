@@ -5,16 +5,6 @@ taxonomy:
         - docs
 ---
 
----
-title: DNSmasq
-description: 
-published: true
-date: 2024-12-18T10:38:50.866Z
-tags: 
-editor: markdown
-dateCreated: 2024-12-18T10:24:53.957Z
----
-
 1. Update
 
        apt-get update
