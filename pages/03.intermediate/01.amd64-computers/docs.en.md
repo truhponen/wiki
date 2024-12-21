@@ -1,6 +1,11 @@
 ---
 title: 'AMD64 computers'
 date: '21:01 21-12-2024'
+taxonomy:
+    category:
+        - docs
+routes:
+    default: /amd64-computers
 ---
 
 There is total 5 AMD64 computers.
