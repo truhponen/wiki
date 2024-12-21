@@ -2,6 +2,9 @@
 title: 'Track temperature'
 date: '19:47 21-12-2024'
 published: true
+taxonomy:
+    category:
+        - docs
 ---
 
 Temperature tracking is process that transfers temperature information from sensors to Home Assistant and other applications.
