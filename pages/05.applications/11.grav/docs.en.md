@@ -6,6 +6,8 @@ taxonomy:
         - docs
 child_type: docs
 slug: grav
+routes:
+    default: /grav
 ---
 
 Container based on [https://www.ericjstauffer.com/blog/set-up-local-grav-environment-with-docker-step-by-step-guide](https://www.ericjstauffer.com/blog/set-up-local-grav-environment-with-docker-step-by-step-guide)
