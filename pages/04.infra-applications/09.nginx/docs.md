@@ -4,7 +4,8 @@ taxonomy:
     category:
         - docs
 child_type: docs
-redirect: nginx
+routes:
+    default: /nginx
 ---
 
 > <pre><code>events {}
