@@ -5,7 +5,7 @@ published: true
 taxonomy:
     category:
         - docs
-slug: track-temperature
+redirect: /track-temperature
 ---
 
 Temperature tracking is process that transfers temperature information from sensors to Home Assistant and other applications.
