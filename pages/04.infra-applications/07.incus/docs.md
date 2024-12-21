@@ -4,7 +4,8 @@ taxonomy:
     category:
         - docs
 child_type: docs
-redirect: /incus
+routes:
+    default: /incus
 ---
 
 Install Incus 
