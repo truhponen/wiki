@@ -4,7 +4,8 @@ taxonomy:
     category:
         - docs
 child_type: docs
-redirect: /dnsmasq
+routes:
+    default: /dnsmasq
 ---
 
 1. Update
