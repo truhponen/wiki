@@ -6,6 +6,6 @@ taxonomy:
 child_type: docs
 ---
 
-### Chapter 3
+### Chapter
 
 # Applications
