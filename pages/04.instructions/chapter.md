@@ -7,6 +7,6 @@ taxonomy:
 
 ### Chapter Number
 
-# Chapter Title
+# Instructions
 
 Chapter description.
