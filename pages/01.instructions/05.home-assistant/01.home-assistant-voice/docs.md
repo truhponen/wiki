@@ -8,7 +8,7 @@ taxonomy:
 
 Links to containers from https://www.home-assistant.io/blog/2023/04/27/year-of-the-voice-chapter-2/
 
-# Piper
+## Piper
 
 container image: https://hub.docker.com/r/rhasspy/wyoming-piper
 
@@ -34,7 +34,7 @@ Compose
             
       command: --voice en_US-lessac-medium
 
-# Whisper
+## Whisper
 
 container image: https://hub.docker.com/r/rhasspy/wyoming-whisper
 
