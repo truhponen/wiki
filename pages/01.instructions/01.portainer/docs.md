@@ -3,6 +3,7 @@ title: Portainer
 taxonomy:
     category:
         - docs
+child_type: docs
 ---
 
 ## Installation / update
