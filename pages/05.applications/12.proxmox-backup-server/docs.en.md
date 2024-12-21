@@ -5,4 +5,4 @@ routes:
     default: /proxmox-backup-server
 ---
 
-Proxmox Backup Server is used to backup [LXC containers](/lxc).
+Proxmox Backup Server is used to backup [LXC containers](/lxc) that are running in [Proxmox](/proxmox).
