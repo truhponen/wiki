@@ -4,7 +4,8 @@ taxonomy:
     category:
         - docs
 child_type: docs
-redirect: /btrfs
+routes:
+    default: /btrfs
 ---
 
 # Add new raid1 btrfs filesystem
