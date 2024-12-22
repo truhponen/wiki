@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /turn-everything-on-off
+    default: /light-control
 ---
 
 Light control is managed by [Home Assistant](/home-assistant).
