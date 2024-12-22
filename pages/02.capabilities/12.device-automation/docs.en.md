@@ -11,5 +11,5 @@ routes:
 Device automations are used to change parameters of systems automatically. Device automations are managed by [Home Assistant](/home-assistant).
 
 Some examples:
-* when sound source for [Musiccast](/musiccast) device is Spotify, sound settings is set to "Music"
-* when bathroom [Musiccast](/musiccast) device is turned on, analog amplifier driving bathroom speakers is turned on.
+* when sound source for [audio device](/audio-devices) is Spotify, sound settings is set to "Music"
+* when bathroom[audio device](/audio-devices) is turned on, analog amplifier driving bathroom speakers is turned on.
