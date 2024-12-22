@@ -9,3 +9,5 @@ routes:
 ---
 
 Infra applications are supporting User applications.
+
+Infra applications are split alphabetically in three groups.
