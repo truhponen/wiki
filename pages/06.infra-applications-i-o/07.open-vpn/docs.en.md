@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /vpn
+    default: /open-vpn
 ---
 
 VPN has been replaced with [Cloudflare](/cloudflare) tunnels.
