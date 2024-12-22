@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /public-transportation-schedules
+    default: /turn-everything-on-off
 ---
 
 Your page content goes here.
