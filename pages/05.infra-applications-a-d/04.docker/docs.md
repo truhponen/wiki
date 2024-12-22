@@ -8,7 +8,7 @@ routes:
     default: /docker
 ---
 
-Docker is used to run [applications](/applications).
+Docker is used to run [user applications](/user-applications) and [infra applications](/infra-applications).
 
 Docker instances are is running in [LXC containers](/lxc).
 
