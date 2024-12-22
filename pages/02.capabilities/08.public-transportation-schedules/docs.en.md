@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /night-timer
+    default: /public-transportation-schedules
 ---
 
 Your page content goes here.
