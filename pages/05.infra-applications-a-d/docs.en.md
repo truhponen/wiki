@@ -7,6 +7,3 @@ routes:
     default: /infra-applications
 ---
 
-### Infra applications
-
-# A-D
