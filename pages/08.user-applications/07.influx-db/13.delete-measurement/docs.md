@@ -4,11 +4,8 @@ taxonomy:
     category:
         - docs
 child_type: docs
-routes:
-    default: /influx-db
+routes: {  }
 ---
-
-# Delete
 
 To remove measurements, for example, sun rise events that were created due to restart of home assistant, run this in influxDB container.
 
