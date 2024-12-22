@@ -1,5 +1,5 @@
 ---
-title: 'Web pages'
+title: SSH-webpages
 date: '21:36 22-12-2024'
 taxonomy:
     category:
@@ -8,4 +8,7 @@ routes:
     default: /web-pages
 ---
 
-Web pages coded using Bootstrap to support some special use cases.
+SSH-webpages are special web page for internal use. It is coded using Bootstrap.
+
+**External sources:**
+* _[https://getbootstrap.com/](https://getbootstrap.com/)_
