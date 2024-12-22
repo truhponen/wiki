@@ -1,14 +1,14 @@
 ---
-title: 'AMD64 computers'
+title: Computers
 date: '21:01 21-12-2024'
 taxonomy:
     category:
         - docs
 routes:
-    default: /amd64-computers
+    default: /computers
 ---
 
-There is total 5 AMD64 computers.
+There is total 5 computers used for home automation / lab purposes.
 
 * 4 computers are different types of Dell Optiplex MFF-computers
 * 1 computer is Lenovo Thinkcentre MFF-computer
