@@ -8,4 +8,4 @@ routes:
     default: /btrfs
 ---
 
-BTRF is used on [Kubernetes](/kubernetes) cluster's [computers](amd64-computers)
+BTRF is used on [Kubernetes](/kubernetes) cluster's [computers](/amd64-computers)
