@@ -8,4 +8,9 @@ routes:
     default: rsync
 ---
 
-Your page content goes here.
+ 
+    rsync -av /mnt/lacie-cloudbox/Elvis/* /oricopool-1/media/documents/elvis > ~/transfer-elvis.log 2>&1 &
+
+Using asterisk results in excluding hidden files
+
+    rsync -av /mnt/lacie-cloudbox/Elvis/ /oricopool-1/media/documents/elvis > ~/transfer-elvis.log 2>&1 &
