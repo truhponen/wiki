@@ -4,6 +4,8 @@ date: '23:52 21-12-2024'
 taxonomy:
     category:
         - docs
+routes:
+    default: /zigbee-adapter
 ---
 
 Zigbee adapter is physical device that works in tandem with [Zigbee2MQTT](/zigbee2mqtt).
