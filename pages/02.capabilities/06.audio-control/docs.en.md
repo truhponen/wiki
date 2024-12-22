@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /night-automation
+    default: /audio-control
 ---
 
 Your page content goes here.
