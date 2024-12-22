@@ -1,12 +1,12 @@
 ---
-title: 'Infra applications: T-Ö'
+title: 'Infra applications: P-Ö'
 taxonomy:
     category: docs
 child_type: docs
 routes:
-    default: /infra-applications-t-o
+    default: /infra-applications-p-o
 ---
 
 ### Infra applications
 
-# I-S
+# P-Ö
