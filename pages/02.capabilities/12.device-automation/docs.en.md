@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /turn-everything-on-off
+    default: /device-automation
 ---
 
 Device automations are used to change parameters of systems automatically. Device automations are managed by [Home Assistant](/home-assistant).
