@@ -20,6 +20,7 @@ Trigger event can come from multiple sources:
 * [schedules](/schedules)
 * physical [buttons](/buttons)
 * virtual buttons in Home Assistant UI
+
 Route of event is different depending on source but all events become [events](/events) in Home Assistant.
 
 ### Adjustment of lights
