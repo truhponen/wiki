@@ -8,4 +8,4 @@ routes:
     default: /wakeup-automation
 ---
 
-Your page content goes here.
+Wakeup automation is managed by [Home Assistant](/home-assistant).
