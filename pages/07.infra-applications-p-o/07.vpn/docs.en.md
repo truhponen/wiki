@@ -1,5 +1,5 @@
 ---
-title: VPN
+title: 'Open VPN Gateway'
 date: '20:43 22-12-2024'
 taxonomy:
     category:
