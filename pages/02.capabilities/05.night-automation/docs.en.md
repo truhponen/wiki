@@ -8,4 +8,4 @@ routes:
     default: /night-automation
 ---
 
-Your page content goes here.
+Night automation is managed by [Home Assistant](/home-assistant).
