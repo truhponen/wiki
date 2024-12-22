@@ -33,4 +33,4 @@ Reload services
 
 Mount 
 
-    mount -t cifs -o vers=1.0,username=[username] //192.168.68.142/Family /mnt/lacie-cloudbox
+    mount -t cifs -o vers=1.0,username=[username] //192.168.xxx.xxx/Family /mnt/lacie-cloudbox
