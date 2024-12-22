@@ -8,4 +8,4 @@ taxonomy:
 
 Cloudflare is used for DNS and Zero Trust. It provides access to [applications](/applications), [infra applications](/infra-applications) and other [infrastructure](/infrastructure) components.
 
-Cloudflare tunnels replaced earlier [VPN](/vpn) implementation.
+Cloudflare tunnels replaced earlier [Open VPN](/open.vpn) implementation.
