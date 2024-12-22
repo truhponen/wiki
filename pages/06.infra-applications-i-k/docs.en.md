@@ -1,11 +1,11 @@
 ---
-title: 'Infra applications: I-O'
+title: 'Infra applications: I-K'
 taxonomy:
     category:
         - docs
 child_type: docs
 routes:
-    default: /infra-applications-i-o
+    default: /infra-applications-2
 ---
 
 Infra applications are supporting User applications.
