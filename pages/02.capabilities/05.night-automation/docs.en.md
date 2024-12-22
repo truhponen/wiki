@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /wakeup-automation
+    default: /night-automation
 ---
 
 Your page content goes here.
