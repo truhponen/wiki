@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /web-pages
+    default: /ssh-webpages
 ---
 
 SSH-webpages are special web page for internal use. It is coded using Bootstrap.
