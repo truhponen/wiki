@@ -5,7 +5,8 @@ taxonomy:
     category:
         - docs
 routes:
-    canonical: /audio-devices
+    aliases:
+        - /audio-devices
 ---
 
 Your page content goes here.
