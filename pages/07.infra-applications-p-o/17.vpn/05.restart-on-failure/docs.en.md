@@ -6,26 +6,22 @@ taxonomy:
         - docs
 ---
 
-If Raspberry Pi, OS has to be Ubuntu 20.04 LTS.
+Instructions based on: https://www.digitalocean.com/community/tutorials/how-to-configure-a-linux-service-to-start-automatically-after-a-crash-or-reboot-part-2-reference
 
-Instructions: https://openvpn.net/vpn-server-resources/install-openvpn-access-server-on-raspberry-pi/
+    sudo nano /etc/systemd/system/multi-user.target.wants/openvpnas.service
 
-Status of Access Server
+set in "Service"-section
 
-    sudo systemctl status openvpnas
+    Restart=on-failure
 
-Update host's privkey to OpenVPS
+To test setup find main PID
 
-    sudo /usr/local/openvpn_as/scripts/sacli --key "cs.priv_key" --value_file "/etc/letsencrypt/live/truhponen.duckdns.org/privkey.pem" ConfigPut
+    sudo systemctl status openvpnas.service
 
-Update host's fullchain to OpenVPS
+Kill main process
 
-    sudo /usr/local/openvpn_as/scripts/sacli --key "cs.cert" --value_file "/etc/letsencrypt/live/truhponen.duckdns.org/fullchain.pem" ConfigPut
+    sudo kill -9 [add PID number here]
 
-Restart Access Server
+Check if process comes back alive
 
-    sudo /usr/local/openvpn_as/scripts/sacli start
-
-OR
-    
-    sudo systemctl restart openvpnas
+    sudo systemctl status openvpnas.service
