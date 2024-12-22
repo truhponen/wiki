@@ -8,8 +8,6 @@ routes:
     default: /influx-db
 ---
 
-# Calculate
-
     from(bucket: "homeassistant")
       |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
       |> filter(fn: (r) => r["_measurement"] == "sensor.valoautomatiikka_end_brightness")
