@@ -6,8 +6,6 @@ taxonomy:
         - docs
 ---
 
-## ZFS NFS
-
 Install kernel server
 
     apt install nfs-kernel-server
