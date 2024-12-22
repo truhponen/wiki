@@ -4,6 +4,8 @@ date: '10:15 22-12-2024'
 taxonomy:
     category:
         - docs
+routes:
+    default: /lights
 ---
 
 There is lights from various manufacturers.
