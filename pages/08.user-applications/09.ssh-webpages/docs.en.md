@@ -10,5 +10,7 @@ routes:
 
 SSH-webpages are special web page for internal use. It is coded using Bootstrap.
 
+SSH-webpages are embedded to [Homepage-dashboard](/homepage)
+
 **External sources:**
 * _[https://getbootstrap.com/](https://getbootstrap.com/)_
