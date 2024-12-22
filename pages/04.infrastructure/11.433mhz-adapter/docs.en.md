@@ -6,4 +6,6 @@ taxonomy:
         - docs
 ---
 
-Your page content goes here.
+Current 433MHz adapter is [Lilygo LoRa32 V2.1_1.6](https://lilygo.cc/products/lora3).
+
+433MHz adapter runs [Open MQTT Gateway](/open-mqtt-gateway).
