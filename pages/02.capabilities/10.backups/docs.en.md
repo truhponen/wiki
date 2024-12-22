@@ -11,4 +11,4 @@ routes:
 There is several approaches to backups.
 
 * Photos are backed up to [ZFS](/zfs) raid
-* [Proxmox](/proxmox) [LXC containers](/lxc) is backed up with [Proxmox Backup Server](/proxmox-backup-server)
+* [LXC containers](/lxc) running in [Proxmox](/proxmox) are backed up with [Proxmox Backup Server](/proxmox-backup-server)
