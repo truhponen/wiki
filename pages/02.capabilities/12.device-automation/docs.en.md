@@ -12,4 +12,4 @@ Device automations are used to change parameters of systems automatically. Devic
 
 Some examples:
 * when sound source for [audio device](/audio-devices) is Spotify, sound settings is set to "Music"
-* when bathroom[audio device](/audio-devices) is turned on, analog amplifier driving bathroom speakers is turned on.
+* when bathroom [audio device](/audio-devices) is turned on, analog amplifier driving bathroom speakers is turned on.
