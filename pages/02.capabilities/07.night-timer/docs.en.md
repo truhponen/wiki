@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /audio-control
+    default: /night-timer
 ---
 
 Your page content goes here.
