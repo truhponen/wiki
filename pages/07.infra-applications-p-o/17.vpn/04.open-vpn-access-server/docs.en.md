@@ -1,5 +1,5 @@
 ---
-title: 'Open VPN Access server'
+title: 'Open VPN Access server setup'
 date: '20:44 22-12-2024'
 taxonomy:
     category:
