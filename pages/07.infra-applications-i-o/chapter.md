@@ -1,5 +1,5 @@
 ---
-title: 'Infra applications: I-S'
+title: 'Infra applications: I-O'
 taxonomy:
     category: docs
 child_type: docs
@@ -9,4 +9,4 @@ routes:
 
 ### Infra applications
 
-# I-S
+# I-O
