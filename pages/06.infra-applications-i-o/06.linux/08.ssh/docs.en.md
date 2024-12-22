@@ -6,4 +6,6 @@ taxonomy:
         - docs
 ---
 
+Generate private-public key pair
+
     ssh-keygen -t ed25519 -C "[comment here]"
