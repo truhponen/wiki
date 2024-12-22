@@ -8,4 +8,4 @@ routes:
     default: /public-transportation-schedules
 ---
 
-Your page content goes here.
+Public transportation schedules are fetched by [Home Assistant](/home-assistant) and displayed on it's UI.
