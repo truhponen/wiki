@@ -1,5 +1,5 @@
 ---
-title: 'ZFS NFS'
+title: 'NFS share ZFS dataset'
 date: '18:48 21-12-2024'
 taxonomy:
     category:
