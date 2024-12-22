@@ -8,6 +8,10 @@ routes:
     default: /433mhz-adapter
 ---
 
-Current 433MHz adapter is [Lilygo LoRa32 V2.1_1.6](https://lilygo.cc/products/lora3) with [3D printed case](https://www.thingiverse.com/thing:4518757#google_vignette).
+Current 433MHz adapter is Lilygo LoRa32 V2.1_1.6  with 3D printed case.
 
 433MHz adapter runs [Open MQTT Gateway](/open-mqtt-gateway).
+
+**External sources:**
+* [Lilygo LoRa32 V2.1_1.6](https://lilygo.cc/products/lora3)
+* [3D printed case](https://www.thingiverse.com/thing:4518757)
