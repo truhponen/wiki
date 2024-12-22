@@ -4,8 +4,7 @@ taxonomy:
     category:
         - docs
 child_type: docs
-routes:
-    default: /btrfs
+routes: {  }
 ---
 
 Assuming you have two btrfs-partitions
