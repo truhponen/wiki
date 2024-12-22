@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /turn-everything-on-off
+    default: /voice-messages
 ---
 
 Voice messages are available in [Home Assistant](/home-assistant) UI. In practice user can type message and select [audio device](/audio-devices) that plays message.
