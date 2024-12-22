@@ -4,8 +4,7 @@ taxonomy:
     category:
         - docs
 child_type: docs
-routes:
-    default: /influx-db
+routes: {  }
 ---
 
     from(bucket: "homeassistant")
