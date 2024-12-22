@@ -7,6 +7,3 @@ routes:
     default: /infra-applications-p-o
 ---
 
-### Infra applications
-
-# P-Ö
