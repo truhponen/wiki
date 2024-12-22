@@ -8,4 +8,8 @@ routes:
     default: /turn-everything-on-off
 ---
 
-Your page content goes here.
+Turn everything on / off is managed by [Home Assistant](/home-assistant).
+
+Two flavors:
+* Turn everything off with timer
+* Turn everything on / off instantly
