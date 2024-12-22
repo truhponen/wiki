@@ -4,6 +4,8 @@ date: '10:12 22-12-2024'
 taxonomy:
     category:
         - docs
+routes:
+    default: /buttons
 ---
 
 ## Zigbee buttons
