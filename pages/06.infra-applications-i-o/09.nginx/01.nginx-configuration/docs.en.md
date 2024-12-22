@@ -12,7 +12,7 @@ taxonomy:
 >         listen 80;
 >         listen [::]:80;
 >     
->         server_name truhponen.duckdns.org;
+>         server_name [public domain];
 >         server_tokens off;
 >     
 >         location /.well-known/acme-challenge/ {
@@ -28,10 +28,10 @@ taxonomy:
 > #        listen 443 default_server ssl http2;
 > #        listen [::]:443 ssl http2;
 > #    
-> #        server_name truhponen.duckdns.org;
+> #        server_name [public domain];
 > #    
-> #        ssl_certificate /etc/nginx/ssl/live/truhponen.duckdns.org/fullchain.pem;
-> #        ssl_certificate_key /etc/nginx/ssl/live/truhponen.duckdns.org/privkey.pem;
+> #        ssl_certificate /etc/nginx/ssl/live/[public domain]/fullchain.pem;
+> #        ssl_certificate_key /etc/nginx/ssl/live/[public domain]/privkey.pem;
 > #        
 > #        location / {
 > #        	# ...
