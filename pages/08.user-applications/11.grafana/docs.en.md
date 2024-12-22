@@ -8,4 +8,4 @@ taxonomy:
 
 Grafana is used to visualize [Influx DB](/influx-db) data.
 
-Grafana dashboards are embedded to [Home Assistant](/home-assistant).
+Grafana dashboards are displaying [temperature](temperature) data embedded to [Home Assistant](/home-assistant).
