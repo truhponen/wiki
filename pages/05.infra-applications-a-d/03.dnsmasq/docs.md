@@ -11,3 +11,6 @@ routes:
 DNSmasq is simple DNS solution.
 
 Currently not used in Kotimme infrastructure.
+
+**Sources:**
+* [https://dnsmasq.org/doc.html](https://dnsmasq.org/doc.html)
