@@ -8,4 +8,4 @@ routes:
     default: /audio-control
 ---
 
-Your page content goes here.
+Audio control is managed by [Home Assistant](/home-assistant).
