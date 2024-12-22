@@ -8,4 +8,4 @@ routes:
     default: /turn-everything-on-off
 ---
 
-Your page content goes here.
+Light control is managed by [Home Assistant](/home-assistant).
