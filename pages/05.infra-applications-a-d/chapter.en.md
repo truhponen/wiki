@@ -5,8 +5,6 @@ taxonomy:
     category: docs
 ---
 
-### Chapter Number
+### Infra applications
 
-# Chapter Title
-
-Chapter description.
+# A-D
