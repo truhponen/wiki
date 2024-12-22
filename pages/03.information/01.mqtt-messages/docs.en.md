@@ -1,6 +1,11 @@
 ---
 title: MQTT-messages
 date: '10:32 22-12-2024'
+taxonomy:
+    category:
+        - docs
+routes:
+    default: /mqtt-messages
 ---
 
 MQTT-messages are events that carry information...
