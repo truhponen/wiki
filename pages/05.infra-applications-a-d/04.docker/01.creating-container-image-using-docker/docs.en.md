@@ -8,15 +8,15 @@ taxonomy:
 
 To Docker hub
 
-    docker buildx build -t truhponen/my-departures:latest --platform linux/arm64 --push .
+    docker buildx build -t [tag]:latest --platform linux/arm64 --push .
         
 To Git hub
 
-    sudo docker buildx build -t ghcr.io/truhponen/my-departures:latest --platform linux/arm64 --push .
+    sudo docker buildx build -t ghcr.io/[tag]:latest --platform linux/arm64 --push .
 
 
 - "Docker buildx build" to create Pi + Linux compliant image on Windows
-- "-t ghcr.io/truhponen/" to Git hub **OR** "-t truhponen/" to Docker hub
+- "-t ghcr.io/[account]" to Git hub **OR** "-t [account]" to Docker hub
 - "my-departures:latest" to add right tag
 - "--platform linux/arm64" to make image Pi + Linux compliant
 - "--push" image
