@@ -8,7 +8,6 @@ routes:
     default: /btrfs
 ---
 
-# Add new raid1 btrfs filesystem
 Assuming you have two btrfs-partitions
 
 1. Check btrfs filesystem
