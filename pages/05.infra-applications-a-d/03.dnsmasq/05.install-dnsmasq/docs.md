@@ -31,7 +31,7 @@ routes: {  }
 
 	`domain-needed`
   `local=/koti/`
-  `address=/koti/192.168.68.3`
+  `address=/koti/[internal ip]`
 
 7. Restart DNSmasq
 
@@ -43,4 +43,4 @@ routes: {  }
 
 9. Test
 
-       nslookup tamakin.koti 192.168.68.102
+       nslookup tamakin.koti [internal IP]
