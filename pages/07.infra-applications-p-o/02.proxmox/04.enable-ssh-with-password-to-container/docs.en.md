@@ -6,4 +6,24 @@ taxonomy:
         - docs
 ---
 
-    pct set [ID] -mp0 /mnt/config,mp=/config-shared
+1. Go to host
+
+2. Attach container to host
+
+       lxc-attach --name <ID>
+
+3. Edit SSH-config in container
+
+       nano /etc/ssh/sshd_config
+
+4. Change ...
+
+    `PermitRootLogin without-password`
+
+    to
+
+    `PermitRootLogin yes`
+
+5. Save and restart ssh service
+
+    service ssh restart
