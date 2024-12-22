@@ -10,7 +10,7 @@ Instructions copied from Roaster-Dude https://www.reddit.com/r/Proxmox/comments/
 
 Similar instruction are available also in https://dannyda.com/2020/05/17/how-to-remove-you-do-not-have-a-valid-subscription-for-this-server-from-proxmox-virtual-environment-6-1-2-proxmox-ve-6-1-2-pve-6-1-2/
 
-## Steps
+### Steps
 
 1. Login to proxmox server.
 2. Change folder 
