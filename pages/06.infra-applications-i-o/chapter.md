@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 child_type: docs
 routes:
-    default: /infra-applications-i-s
+    default: /infra-applications-i-o
 ---
 
 ### Infra applications
