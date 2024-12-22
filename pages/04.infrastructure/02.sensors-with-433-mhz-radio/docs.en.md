@@ -25,5 +25,7 @@ There is different types of sensors
 
 ## Zigbee sensors
 
+Zigbee sensors are used to track motion and lightness.
+
 * Philips Hue motion sersors integrated through [Zigbee2MQTT](/zigbee2mqtt)
 * Philips Hue motion sersors integrated through [Hue bridge](/hue-bridge)
