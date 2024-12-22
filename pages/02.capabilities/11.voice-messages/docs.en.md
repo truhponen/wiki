@@ -8,4 +8,6 @@ routes:
     default: /turn-everything-on-off
 ---
 
-Your page content goes here.
+Voice messages are available in [Home Assistant](/home-assistant) UI. In practice user can type message and select [audio device](/audio-devices) that plays message.
+
+Text message is converted to speech by [Piper](/piper). Piper is integrated to Home Assistant which plays the result in selected audio device.
