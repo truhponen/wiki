@@ -11,10 +11,10 @@ routes:
 Audio control allows user to control [audio devices](/audio-devices) with various [buttons](/buttons).
 
 Audio control has two sides:
-1. [automations](/automations) that trigger adjustments to [audio device](/audio-devices)
+1. [Events](/events) that trigger adjustments to [audio device](/audio-devices)
 2. Adjustments of [audio device](/audio-devices)
 
-[Home Assistant](/home-assistant) [automations](/automations) "tie" these sides together.
+[Home Assistant automations](/home-assistant-automations) "tie" these sides together.
 
 ## Trigger events
 
