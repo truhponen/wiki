@@ -8,7 +8,7 @@ routes:
     default: /light-control
 ---
 
-Audio control allows controlling [lights](/lights) with various [sensors](/sensors) and [buttons](/buttons).
+Light control allows controlling [lights](/lights) with various [sensors](/sensors) and [buttons](/buttons).
 
 Light control has two sides:
 1. [Events](/events) that trigger adjustments to [lights](/lights)
