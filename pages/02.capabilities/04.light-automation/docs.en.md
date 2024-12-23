@@ -12,5 +12,5 @@ Light automation controls brightness of [lights](/lights). Light automation is m
 
 1. [Zigbee light sensor](/zigbee) monitors external lightness
 2. [Sensor](/sensors) sends information to [Zigbee2MQTT](/zigbee2mqtt)
-3. Zigbee2MQTT send information to [Home Assistant](/home-assistant) through [Mosquitto](/mosquitto)
+3. [Zigbee2MQTT](/zigbee2mqtt) send information to [Home Assistant](/home-assistant) through [Mosquitto](/mosquitto)
 4. [Light control](/light-control) calculates preferred brightness and adjusts brightness of [lights](/lights).
