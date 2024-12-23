@@ -28,7 +28,7 @@ Route of [event](/events) is different depending on source but eventually all [e
 
 ### Adjustment of lights
 
-There is [custom python script](home-assistant-python-scripts) that is used to adjust lights. Script adds abstraction level to light adjustments. Behavior of script can be controlled with [variables](/variables), such as "start brightness", "end brightness" and "transition time". Python script could be replaced with regular [Home Assistant script](/home-assistant-scripts).
+There is [custom python script](/home-assistant-python-scripts) that is used to adjust lights. Script adds abstraction level to light adjustments. Behavior of script can be controlled with [variables](/variables), such as "start brightness", "end brightness" and "transition time". Python script could be replaced with regular [Home Assistant script](/home-assistant-scripts).
 
 Events have different types of predefined variables. This way each [event](/events) can be easily configured to produce different type of light adjustment.
 
