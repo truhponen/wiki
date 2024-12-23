@@ -19,7 +19,7 @@ Audio control has two sides:
 ## Trigger events
 
 Trigger [event](/events) can come from multiple sources:
-* [automations](/automations)
+* [Home assistant automations](/home-assistant-automations)
 * physical [buttons](/buttons)
 * [Home Assistant](/home-assistant) UI
 
