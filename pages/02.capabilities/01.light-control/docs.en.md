@@ -8,13 +8,13 @@ routes:
     default: /light-control
 ---
 
-Audio control allows controlling [lights](/lights) with various [sensors](/sensors), [buttons](/buttons) and [automations](/automations).
+Audio control allows controlling [lights](/lights) with various [sensors](/sensors) and [buttons](/buttons).
 
 Light control has two sides:
 1. [Events](/events) that trigger adjustments to [lights](/lights)
 2. Adjustments of [lights](/lights).
 
-Home Assistant [automations](/automations) "tie" these sides together.
+Home Assistant [automations](/home-assistant-automations) "tie" these sides together.
 
 ## Trigger events
 
