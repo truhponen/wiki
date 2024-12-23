@@ -18,7 +18,7 @@ Home Assistant [automations](/home-assistant-automations) "tie" these sides toge
 
 ## Trigger events
 
-Trigger [event](events) can come from multiple sources:
+Trigger [event](/events) can come from multiple sources:
 * [sensors](/sensors)
 * [schedules](/schedules)
 * physical [buttons](/buttons)
