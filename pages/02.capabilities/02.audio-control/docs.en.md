@@ -8,7 +8,7 @@ routes:
     default: /audio-control
 ---
 
-Audio control allows user to control [audio devices](/audio-devices) with various [buttons](/buttons) and automations.
+Audio control allows user to control [audio devices](/audio-devices) with various [buttons](/buttons).
 
 Audio control has two sides:
 1. [automations](/automations) that trigger adjustments to [audio device](/audio-devices)
