@@ -27,8 +27,8 @@ Route of [event](/events) is different depending on source but eventually all [e
 
 ### Adjustment of audio device
 
-There is several Home Assistant [automation](/automations) that are used to adjust [audio devices](/audio-devices). [Automations](/automations) add abstraction level to adjustments. Behavior of [automations](/automations) can be controlled with [variables](/variables), such as "start volume", "end volume" and "transition time".
+There is several [Home Assistant automations](/home-assistant-automations) that are used to adjust [audio devices](/audio-devices). [Automations](/home-assistant-automations) add abstraction level to adjustments. Behavior of [automations](/home-assistant-automations) can be controlled with [variables](/variables), such as "start volume", "end volume" and "transition time".
 
-Events have different types of predefined [variables](/variables). This way each event can be easily configured to produce different type of [audio device](/audio-devices) adjustment.
+[Events](/events) have different types of predefined [variables](/variables). This way each event can be easily configured to produce different type of [audio device](/audio-devices) adjustment.
 
-The actual adjustment of [audio device](/audio-devices) is conducted by [Home Assistant](/home-assistant) through build in integrations.
+The actual adjustment of [audio device](/audio-devices) is conducted by [Home Assistant](/home-assistant) through build in [integrations](/home-assistant-integrations).
