@@ -8,7 +8,7 @@ routes:
     default: /device-automation
 ---
 
-Device automations are used to change parameters of systems automatically. Device automations are managed by [Home Assistant](/home-assistant).
+Device automations are used to change parameters of systems automatically. Device automations are managed by [Home Assistant](/home-assistant) automations which trigger for various reasons.
 
 Some examples:
 * when sound source for [audio device](/audio-devices) is Spotify, sound settings is set to "Music"
