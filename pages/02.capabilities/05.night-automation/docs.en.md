@@ -8,6 +8,6 @@ routes:
     default: /night-automation
 ---
 
-Night automation is managed by [Home Assistant](/home-assistant).
+Wakeup automation is managed by [Home Assistant](/home-assistant).
 
-Night automation is automation that dims [lights](/lights) based on predefined schedule. Schedule is day-specific and stored in helpers.
+Wakeup automation is an automation that triggers [light control](/light-control) to dim [lights](/lights) based on predefined schedules. Schedules are room and days specific and stored in [Home Assistant](/home-assistant) helpers.
