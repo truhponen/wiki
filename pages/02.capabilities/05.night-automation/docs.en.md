@@ -9,3 +9,5 @@ routes:
 ---
 
 Night automation is managed by [Home Assistant](/home-assistant).
+
+Night automation is automation that dims [lights](/lights) based on predefined schedule. Schedule is day-specific and stored in helpers.
