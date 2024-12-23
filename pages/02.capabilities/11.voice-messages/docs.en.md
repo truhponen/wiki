@@ -8,6 +8,6 @@ routes:
     default: /voice-messages
 ---
 
-Voice messages are available in [Home Assistant](/home-assistant) UI. In practice user can type message and select [audio device](/audio-devices) that plays message.
+Voice messages are available in [Home Assistant](/home-assistant) UI. User can type message and select [audio device](/audio-devices) that plays message.
 
-Text message is converted to speech by [Piper](/piper). Piper is integrated to Home Assistant which plays the result in selected audio device.
+Text message that is stored to Home Assistant's "text helper" is converted to speech by [Piper](/piper). Piper is integrated to [Home Assistant](/home-assistant) which plays the result in selected [audio device](/audio-devices).
