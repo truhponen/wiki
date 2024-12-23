@@ -10,6 +10,8 @@ routes:
 
 Turn everything on / off is managed by [Home Assistant](/home-assistant).
 
-Two flavors:
-* Turn everything off with timer
+Process can be triggered from various sources such as [buttons](/buttons) and [Home Assistant](/home-assistant's) UI buttons.
+
+Process has flavors:
+* Turn everything off with timer 
 * Turn everything on / off instantly
