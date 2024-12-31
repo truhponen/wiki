@@ -8,4 +8,8 @@ routes:
     default: /filestash
 ---
 
-Your page content goes here.
+Filestash simplifies access to various configurations files.
+
+In practice, Filestash provides SFTP connection to servers and simple browser UI for browsing and editing files.
+
+Local configuration folders are configured to Filestash to streamline access.
