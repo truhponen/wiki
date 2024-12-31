@@ -8,10 +8,10 @@ routes:
     default: /access-to-applications
 ---
 
-All [applications](/user-applications) have subdomains that can be used from internet and [home network](/lan). This enhances usability as you don't need to remember IPs and ports.
+All [user applications](/user-applications) and some [infra applications](/infra-applications) have subdomains that can be used from internet and [home network](/lan). This enhances usability as you don't need to remember IPs and ports.
 
-Central part of solution is [HAproxy](/haproxy) that forwards subdomain traffic to different [user applications](/user-applications). Some [infra applications](/infra-applications) also have domains.
+Central part of solution is [HAproxy](/haproxy) that forwards traffic to different [user applications](/user-applications) and [infra applications](/infra-applications).
 
-Traffic from internet goes through [Cloudflare](/cloudflare) to [HAproxy](/haproxy).
+If user is in public internet, authoritative DNS for kotimme.cc-domain is [Cloudflare](/cloudflare) that forwards traffic through [Cloudflare tunnel](/cloudflare) to [HAproxy](/haproxy). Also, if user is using [Cloudflare Warp-client](/cloudflare) traffic goes the same route.
 
-Traffic inside [home network](/lan) is managed by [Technitium DNS](/technitium-dns). It acts mainly as recursive DNS but for kotimme.cc domain it acts as an authoritive DNS and directs traffic to [HAproxy](/haproxy).
+If user is in [home network](/lan), authoritative DNS for kotimme.cc-domain is [Technitium DNS](/technitium-dns) that forwards traffic to [HAproxy](/haproxy).
