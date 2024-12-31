@@ -14,4 +14,4 @@ Central part of solution is [HAproxy](/haproxy) that forwards traffic to differe
 
 If user is in public internet, authoritative DNS for kotimme.cc-domain is [Cloudflare](/cloudflare) that forwards traffic through [Cloudflare tunnel](/cloudflare) to [HAproxy](/haproxy). Also, if user is using [Cloudflare Warp-client](/cloudflare) traffic goes the same route.
 
-If user is in [home network](/lan), authoritative DNS for kotimme.cc-domain is [Technitium DNS](/technitium-dns) that forwards traffic to [HAproxy](/haproxy).
+If user is in [home network](/lan), authoritative DNS for kotimme.cc-domain is [Technitium DNS](/technitium-dns) that forwards traffic straight to [HAproxy](/haproxy).
