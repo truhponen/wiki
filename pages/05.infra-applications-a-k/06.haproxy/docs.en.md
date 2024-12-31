@@ -8,4 +8,8 @@ routes:
     default: /haproxy
 ---
 
-Your page content goes here.
+HAProxy is reverse proxy and load balancer. It has central role when [accessing applications](/access-to-applications).
+
+HAProxy has no open ports to public internet.
+
+https://www.haproxy.com/
