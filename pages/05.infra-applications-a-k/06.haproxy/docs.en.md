@@ -12,4 +12,5 @@ HAProxy is reverse proxy and load balancer. It has central role when [accessing 
 
 HAProxy has no open ports to public internet.
 
-https://www.haproxy.com/
+**External sources:**
+* [https://www.haproxy.com/](https://www.haproxy.com/)
