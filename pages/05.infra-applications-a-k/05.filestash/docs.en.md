@@ -8,7 +8,7 @@ routes:
     default: /filestash
 ---
 
-Filestash simplifies access to various configurations files.
+Filestash file management facade. It's main purpose is to simplify editing various configurations files.
 
 In practice, Filestash provides SFTP connection to servers and simple browser UI for browsing and editing files.
 
