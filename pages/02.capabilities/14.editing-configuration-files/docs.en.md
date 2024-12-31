@@ -4,6 +4,8 @@ date: '22:59 31-12-2024'
 taxonomy:
     category:
         - docs
+routes:
+    default: /editing-configuration-files
 ---
 
 Most of user and infra applications have some type of configuration files.
