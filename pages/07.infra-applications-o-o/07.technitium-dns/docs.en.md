@@ -10,7 +10,7 @@ routes:
 
 Technitium is DNS-solution for [home network](/lan).
 
-Technitium is mainly recursive DNS caching DNS-information and this way speeding up DNS resolution in [home network](/lan).
+Technitium is mainly used as recursive DNS caching DNS-information and this way speeding up DNS resolution in [home network](/lan).
 
 For kotimme.cc-domain in [home network](/lan) it is also authoritative DNS. In public internet [Cloudflare](/cloudflare) is the authoritative DNS.
 
