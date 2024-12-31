@@ -8,7 +8,7 @@ routes:
     default: /domains
 ---
 
-Domains are managed in three different places.
+Domains are managed in three different places and used in various places.
 
 Cloudflare DNS has configurations related to @-, *- and ssh-domains. @ and * traffic  is forwarded through tunnel to HAProxy and ssh-traffic is forwarded to respective resource. *-domain is used to make Cloudflare configuration simple.
 
