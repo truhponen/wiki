@@ -15,3 +15,5 @@ Cloudflare DNS has configurations related to @-, *- and ssh-domains. @ and * tra
 Technitium DNS has configuration related to "@" and all "non-ssh"-domains, and it forwards their traffic to HAProxy. SSH traffic needs to go to Cloudflare as it provides SSH in browser feature.
 
 HAProxy has configuration related to "@" and all "non-ssh"-domains, and it forwards their traffic to correct backends.
+
+There is URLs related to domains in various user applications - most of them are in Home Assistant and Homepage.
