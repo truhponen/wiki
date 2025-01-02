@@ -20,10 +20,13 @@ If user is in public internet or using [Cloudflare Warp-client](/cloudflare) ...
 5. [HAproxy](/haproxy) resolves correct backend based on it's configurations.
  
 
-If user is in [home network](/lan)
+If user is in [home network](/lan)...
 1. authoritative DNS for kotimme.cc-domain is [Technitium DNS](/technitium-dns)
 2. [Technitium DNS](/technitium-dns) has conditional forwarder zone that specifies A records for all subdomains except Cloudflare's [SSH browser rendering](/ssh-from-outside-of-home-network) subdomains.
-3.  that forwards traffic straight to [HAproxy](/haproxy).
+3. [Technitium DNS](/technitium-dns) forwards traffic straight to [HAproxy](/haproxy). SSH-domain requests are forwarded to Cloudflare DNS
+4. [HAproxy](/haproxy) resolves correct backend based on it's configurations.
+
 
 **External sources**
 * [https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/routing-to-tunnel/dns/](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/routing-to-tunnel/dns/)
+* [https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/)
