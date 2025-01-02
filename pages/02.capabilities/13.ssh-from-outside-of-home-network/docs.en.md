@@ -10,8 +10,11 @@ routes:
 
 There is multiple ways to SSH to servers.
 
-When device has Cloudlare Warp-connections active. Internal IP addresses can be reached from device and you can use any terminal application.
+When device has [Cloudlare](/cloudflare) Warp-connections active. Internal IP addresses can be reached from device and you can use any terminal application.
 
-Cloudflare provides "SSH browser rendering". In practice there is domains for each backend systems. after logging into Cloudflare it is possible to login to server.
+[Cloudlare](/cloudflare) provides also "SSH browser rendering". In practice there is subdomains (ssh...kotimme.cc) for each backend systems. After logging into [Cloudlare](/cloudflare) it is possible to login to https://wiki.kotimme.cc/en/computers.
+[Cloudlare](/cloudflare) provides also "SSH browser rendering". In practice there is subdomains (ssh...kotimme.cc) for each backend systems. After logging into [Cloudlare](/cloudflare) it is possible to login to [servers]() and [LXCs](https://wiki.kotimme.cc/en/lxc).
 
-https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-browser-rendering/
+**External sources**
+* [https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/)
+* [https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-browser-rendering/](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/use-cases/ssh/ssh-browser-rendering/)
