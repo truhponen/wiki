@@ -10,7 +10,7 @@ routes:
 
 Domains enhance usability of home network as you don't need to remember IPs and ports. All [user applications](/user-applications) and many [infra applications](/infra-applications) have dedicated subdomains. Also [Cloudflare's SSH browser rendering feature](/ssh-from-outside-of-home-network) has subdomains. 
 
-Domains are managed in four different places and used in various places.
+Domain related information is managed in four different places and used in various places.
 
 [Cloudflare DNS](/cloudflare) has DNS records for...
 * @-, \*-domains. \*-declaration is used to simplify maintenance of DNS-records
