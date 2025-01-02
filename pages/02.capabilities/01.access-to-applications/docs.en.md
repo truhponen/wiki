@@ -15,8 +15,8 @@ Central part of solution is [HAproxy](/haproxy) that forwards traffic to differe
 If user is in public internet or using [Cloudflare Warp-client](/cloudflare).... 
 1. authoritative DNS for kotimme.cc-domain is [Cloudflare DNS](/cloudflare)
 2. DNS directs traffic to [Cloudflare tunnel](/cloudflare) ("CNAME IN <tunnel_UUID>.cfargotunnel.com")
-3. tunnel leads to Cloudflared-application running in [Docker container](/docker)
-4. Cloudflared-application direct traffic to [HAproxy](/haproxy) that is running in same [Docker network](/docker).
+3. tunnel leads to [Cloudflared-application](/cloudflared) running in [Docker container](/docker)
+4. [Cloudflared-application](/cloudflared) directs traffic to [HAproxy](/haproxy) that is running in same [Docker network](/docker).
 5. [HAproxy](/haproxy) resolves correct backend based on it's configurations.
  
 
