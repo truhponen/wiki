@@ -10,7 +10,7 @@ routes:
 
 Domains are managed in three different places and used in various places.
 
-Cloudflare DNS has configurations related to @-, *- and ssh-domains. @ and * traffic  is forwarded through tunnel to HAProxy and ssh-traffic is forwarded to respective resource. *-domain is used to make Cloudflare configuration simple.
+Cloudflare DNS has configurations related to @-, \*- and ssh-domains. @ and * traffic  is forwarded through tunnel to HAProxy and ssh-traffic is forwarded to respective resource. *-domain is used to make Cloudflare configuration simple.
 
 Technitium DNS has configuration related to "@" and all "non-ssh"-domains, and it forwards their traffic to HAProxy. SSH traffic needs to go to Cloudflare as it provides SSH in browser feature.
 
