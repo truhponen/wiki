@@ -16,7 +16,7 @@ Domain related information is managed in four different places and used in vario
 * @- and non-ssh...-domains which are related to [accessing applications](/access-to-applications)
 * ssh...-domains which are related to [ssh-traffic](/ssh-from-outside-of-home-network)
 * [Cloudflare DNS](/cloudflare) can resolve request related to all domains
-* Note, you cannot use \*-declaration as ssh...-domains require different tunnel configurations that @- and non-ssh...-domains 
+* Note, you cannot use \*-declaration in DNS records as ssh...-domains require different tunnel configurations than @- and non-ssh...-domains 
 
 [Technitium DNS](/technitium-dns) has DNS records for...
 * @- and "non-ssh..."-domains which are related to [accessing applications](/access-to-applications)
