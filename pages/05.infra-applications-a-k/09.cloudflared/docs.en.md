@@ -4,6 +4,8 @@ date: '14:09 02-01-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /cloudflared
 ---
 
 Cloudflared-application is the private end of [Cloudflare-tunnel](/cloudflare). Public end is in [Cloudflare-cloud infrastructure](/cloudflare).
