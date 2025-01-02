@@ -18,7 +18,7 @@ Domains are managed in four different places and used in various places.
 
 [Technitium DNS](/technitium-dns) has DNS records for...
 * @- and "non-ssh"-domains which are related to [accessing applications](/access-to-applications)
-* request related to other subdomains (i.e. ssh...-domains) are forwarded to Cloudflare DNS
+* request related to other subdomains (i.e. ssh...-domains) are forwarded to [Cloudflare DNS](/cloudflare)
 
 [HAProxy](/haproxy) has backend configurations for...
 * @- and "non-ssh"-domains which are related to [accessing applications](/access-to-applications)
