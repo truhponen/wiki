@@ -13,11 +13,11 @@ Domains enhance usability of home network as you don't need to remember IPs and 
 Domain related information is managed in four different places and used in various places.
 
 [Cloudflare DNS](/cloudflare) has DNS records for...
-* @-, \*-domains. \*-declaration is used to simplify maintenance of DNS-records
+* @-, and "non-ssh..."-domains which are related to [accessing applications](/access-to-applications)
 * ssh...-domains which are related to [ssh-traffic](/ssh-from-outside-of-home-network)
 
 [Technitium DNS](/technitium-dns) has DNS records for...
-* @- and "non-ssh"-domains which are related to [accessing applications](/access-to-applications)
+* @- and "non-ssh..."-domains which are related to [accessing applications](/access-to-applications)
 * request related to other subdomains (i.e. ssh...-domains) are forwarded to [Cloudflare DNS](/cloudflare)
 
 [HAProxy](/haproxy) has backend configurations for...
