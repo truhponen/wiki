@@ -14,3 +14,5 @@ You can dig deeper from different angles:
 * [Infrastructure](/infrastructure) describes physical basis for home automation
 * [Infra application](/infra-applications) describe applications that for the basis for home automation application
 * [User applications](/user-applications) describe different types of home automation applications
+
+Most detailed documentation is in configuration files of each application in form of comments.
