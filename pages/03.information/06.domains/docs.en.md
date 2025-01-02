@@ -8,12 +8,20 @@ routes:
     default: /domains
 ---
 
-Domains are managed in three different places and used in various places.
+Domains enhance usability of home network as you don't need to remember IPs and ports. All [user applications](/user-applications) and many [infra applications](/infra-applications) have dedicated subdomains. Also [Cloudflare's SSH browser rendering feature](/ssh-from-outside-of-home-network) has subdomains. 
 
-Cloudflare DNS has configurations related to @-, \*- and ssh-domains. @ and * traffic  is forwarded through tunnel to HAProxy and ssh-traffic is forwarded to respective resource. *-domain is used to make Cloudflare configuration simple.
+Domains are managed in four different places and used in various places.
 
-Technitium DNS has configuration related to "@" and all "non-ssh"-domains, and it forwards their traffic to HAProxy. SSH traffic needs to go to Cloudflare as it provides SSH in browser feature.
+[Cloudflare DNS](/cloudflare) has DNS records for...
+* @-, \*-domains. \*-declaration is used to simplify maintenance of DNS-records
+* ssh...-domains which are related to [ssh-traffic](/ssh-from-outside-of-home-network)
 
-HAProxy has configuration related to "@" and all "non-ssh"-domains, and it forwards their traffic to correct backends.
+[Technitium DNS](/technitium-dns) has DNS records for...
+* @- and "non-ssh"-domains which are related to [accessing applications](/access-to-applications)
+* request related to other subdomains (i.e. ssh...-domains) are forwarded to Cloudflare DNS
 
-There is URLs related to domains in various user applications - most of them are in Home Assistant and Homepage.
+[HAProxy](/haproxy) has backend configurations for...
+* @- and "non-ssh"-domains which are related to [accessing applications](/access-to-applications)
+
+[Cloudflare tunnels](/cloudflare) have backend configurations for...
+* ssh...-domains which are related to [ssh-traffic](/ssh-from-outside-of-home-network)
