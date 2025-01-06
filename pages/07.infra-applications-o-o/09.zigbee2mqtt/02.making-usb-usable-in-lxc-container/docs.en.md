@@ -1,42 +1,12 @@
 ---
-title: 'Map USB Zigbee Dongle to LCX-container2'
+title: 'Making USB usable in LXC-container'
 date: '07:08 06-01-2025'
 taxonomy:
     category:
         - docs
 ---
 
-1. Check where USB device is connected
-
-        ls -l /dev/serial/by-id
-
-2. Result is something like ...
-
-    `lrwxrwxrwx 1 root root 13 Nov  7 17:07 usb-ITead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_d26ec6380919ec119f4839cc47486eb0-if00-port0 -> ../../ttyUSB0`
-
-3. Check details of "file" that represents connection...
-
-        ls -l /dev/ttyUSB0
-
-4. Result is something like. Pay attention to number (in my case 188) ...
-
-    `crw-rw---- 1 root root 188, 0 Nov  7 18:18 /dev/ttyUSB0`
-
-5. Edit container configuration
-
-        nano /etc/pve/lxc/101.conf
-
-6. Add two rows. In first line you need number: In second line you need "file".
-
-    `lxc.cgroup.devices.allow: c 188:* rwm`
-
-    `lxc.mount.entry: /dev/ttyUSB0 dev/ttyUSB0 none bind,optional,create=file`
-
-7. Update Zigbee2MQTT's "configuration.yaml"
-
-       port: /dev/ttyUSB0
-
-# Making USB usable in LXC-container (NEW)
+### New way
 
 Goal is to change owner and group of files representing USB-device
 
