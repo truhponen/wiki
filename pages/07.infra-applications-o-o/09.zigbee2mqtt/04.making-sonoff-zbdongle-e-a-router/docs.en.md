@@ -1,31 +1,10 @@
 ---
-title: 'Useful udev commands 2'
+title: 'Making Sonoff ZBDongle-E a router'
 date: '07:08 06-01-2025'
 taxonomy:
     category:
         - docs
 ---
-
-* Debugging
-
-        udevadm test $(udevadm info -q path -n /dev/ttyUSB0)
-
-* Check attributes
-
-        udevadm info /dev/ttyUSB0
-
-* Check details of path
-
-        udevadm info -a /dev/bus/usb/001/022
-
-* 001 and 002 you find with 
-
-        lsusb
-
-
-  
-
-# Making Sonoff ZBDongle-E a router
 
 I used https://www.vandyke.com/products/securecrt/ for flashing...
 
