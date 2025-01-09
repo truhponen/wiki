@@ -60,3 +60,11 @@ taxonomy:
         test: test
       tags:
       - read_configurations
+  
+  **Print type of variable**
+  
+      - name: Print type of config_local_directories
+      ansible.builtin.debug:
+        msg: "{{ config_local_directories | type_debug }}"
+      tags:
+      - read_configurations
