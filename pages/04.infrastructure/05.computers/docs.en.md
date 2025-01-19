@@ -19,4 +19,4 @@ Computers are used for clusters.
 * 3 computers form [Proxmox](/proxmox) cluster.
 * 2 computers form [Kubernetes](/kubernetes) cluster.
 
-![20250119_214523](20250119_214523.jpg "20250119_214523")
+![20250119_214523](20250119_214523.jpg "Server rack :)")
