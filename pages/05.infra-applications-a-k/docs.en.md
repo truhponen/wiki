@@ -6,6 +6,8 @@ taxonomy:
         - docs
 routes:
     default: /infra-applications
+external_links:
+    title: true
 ---
 
 Infra applications are supporting User applications.
