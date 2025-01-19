@@ -20,4 +20,4 @@ Computers are used for clusters.
 * 2 computers form [Kubernetes](/kubernetes) cluster.
 
 
-![Some computers](20250119_214523.jpg "Server rack :)" =300x200)
+![Some computers](20250119_214523.jpg "My server rack :)")
