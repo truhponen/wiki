@@ -6,6 +6,7 @@ taxonomy:
         - docs
 routes:
     default: /computers
+media_order: 20250119_214523.jpg
 ---
 
 There is total 5 computers used for home automation / lab purposes.
@@ -17,3 +18,5 @@ Computers are used for clusters.
 
 * 3 computers form [Proxmox](/proxmox) cluster.
 * 2 computers form [Kubernetes](/kubernetes) cluster.
+
+![]()
