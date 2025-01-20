@@ -8,4 +8,4 @@ routes:
     default: /ip-address
 ---
 
-IP addresses are assigned by [router](/router) 
+IP addresses are assigned by [router](/routers) 
