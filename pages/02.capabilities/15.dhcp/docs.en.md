@@ -10,9 +10,9 @@ routes:
 
 DHCP is handled by [LAN router](/lan).
 
-When in Devices in home's LAN, they should use [internal Technitium DNS](/technitium-dns) as primary DNS. This eases [accessing applications](/access-to-applications) by skipping [Cloudflare](/cloudflare) authentication and speeds up DNS resolution.
+When in device in [home LAN](/lan), DHCP defines [internal Technitium DNS](/technitium-dns) as primary DNS. This eases [accessing applications](/access-to-applications) by skipping [Cloudflare](/cloudflare) authentication and speeds up DNS resolution.
 
-Currently Deco router is handling DHCP but doesn't seem to offer DHCP for IPv6 network. So, there is no easy way to distribute local IPv6 nameserver to devices in network. [Technitium DNS](/technitium-dns) could also act as a DHCP server but it neither offers DHCPv6.
+Currenly [home LAN](/lan) uses IPv4 and router doesn't offer DHCP for IPv6 network. [Technitium DNS](/technitium-dns) could also act as a DHCP server but it neither offers DHCPv6. At the moment there is no easy way to distribute local IPv6 nameserver to devices in network.
 
 **External sources**
 * [https://en.wikipedia.org/wiki/DHCPv6](https://en.wikipedia.org/wiki/DHCPv6)
