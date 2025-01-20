@@ -1,5 +1,5 @@
 ---
-title: SSH-webpages
+title: SSH-webpage
 date: '21:36 22-12-2024'
 taxonomy:
     category:
@@ -8,9 +8,12 @@ routes:
     default: /ssh-webpages
 ---
 
-SSH-webpages are special web page for internal use. It is coded using Bootstrap.
+SSH-webpage is a special web page for internal use. It uses Bootstrap.
 
-SSH-webpages are embedded to [Homepage-dashboard](/homepage)
+User can input number of machine (last segment of [IP address](/ip-address)) and script forms URL to [Cloudflare](/cloudflare) SSH browse rendering. 
+
+SSH-webpage is embedded to [Homepage-dashboard](/homepage)
+
 
 **External sources:**
 * _[https://getbootstrap.com/](https://getbootstrap.com/)_
