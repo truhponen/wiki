@@ -16,4 +16,4 @@ SSH-webpage is embedded to [Homepage-dashboard](/homepage)
 
 
 **External sources:**
-* _[https://getbootstrap.com/](https://getbootstrap.com/)_
+* [https://getbootstrap.com/](https://getbootstrap.com/)
