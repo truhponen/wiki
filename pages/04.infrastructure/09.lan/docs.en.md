@@ -8,12 +8,8 @@ routes:
     default: /lan
 ---
 
-Our home's local area network consists:
+Our home's local area network is build using [mesh routers](/routers) and [network switches](/network-switches)
 
-* [Mesh routers](/routers)
-* ZyXEL GS-105B and GS-108B v3 switches
-* ZyXEL GS1200-8 switch
-
-Deco mesh routers form backbone of local area network. Network is not wired as I'm lazy and all walls are thick concrete. Most of devices have wired connection to nearest deco through ZyXEL switches.
+[Mesh routers](/routers) form backbone of local area network. Network is not wired as I'm lazy and all walls are thick concrete. Most of devices have wired connection to nearest deco through [network switches](/network-switches).
 
 Currently only IPv4 network is enabled. This is due to [DHCP](/dhcp) configurations.
