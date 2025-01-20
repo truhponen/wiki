@@ -10,4 +10,4 @@ routes:
 
 Hue bridge is used to control Philips Hue [lights](/lights).
 
-Hue bridge has similar role as [Zigbee adapter](/zigbee-adapter).
+Hue bridge has similar role as [Zigbee coordinator](/zigbee-coordinator).
