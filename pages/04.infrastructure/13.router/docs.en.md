@@ -6,4 +6,7 @@ taxonomy:
         - docs
 ---
 
-[Home LAN](/lan) uses Deco mesh routers
+[Home LAN](/lan) uses TP-link Deco mesh routers.
+
+* [https://www.tp-link.com/us/deco-mesh-wifi/product-family/deco-x60/](https://www.tp-link.com/us/deco-mesh-wifi/product-family/deco-x60/)
+* [https://www.tp-link.com/us/deco-mesh-wifi/product-family/deco-m5/](https://www.tp-link.com/us/deco-mesh-wifi/product-family/deco-m5/)
