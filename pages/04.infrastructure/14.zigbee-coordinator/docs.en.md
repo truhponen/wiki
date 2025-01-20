@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /zigbee-adapter
+    default: /zigbee-coordinator
 ---
 
 Zigbee coordinator is physical device that works in tandem with [Zigbee router](/zigbee-router) and [Zigbee2MQTT](/zigbee2mqtt).
