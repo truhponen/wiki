@@ -8,4 +8,8 @@ routes:
     default: /variables
 ---
 
-Your page content goes here.
+In [Home assistant](/home-assisant) global variables are stored in helpers.
+
+In [automations](/home-assistant-automations)...
+* trigger specific variables are defined in trigger
+* generic variables are defined as the first action of automation
