@@ -4,6 +4,8 @@ date: '14:01 20-01-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /zigbee-router
 ---
 
 Zigbee router is physical device that extends [Zigbee coordinator's](/zigbee-coordinator) network.
