@@ -10,4 +10,4 @@ routes:
 
 Wakeup automation is managed by [Home Assistant](/home-assistant).
 
-Wakeup automation is an automation that triggers [light control](/light-control) to dim [lights](/lights) based on predefined [schedules](/schedules). [Schedules](/schedules) are room and days specific.
+Wakeup automation is an automation that triggers [light control](/light-control) to brighten [lights](/lights) based on predefined [schedules](/schedules). [Schedules](/schedules) are room and days specific.
