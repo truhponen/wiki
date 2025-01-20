@@ -1,5 +1,5 @@
 ---
-title: Grav
+title: 'Grav CMS'
 date: '19:15 21-12-2024'
 taxonomy:
     category:
@@ -10,7 +10,7 @@ routes:
     default: /grav
 ---
 
-Grav is used to publish this wiki.
+Grav CMS is used to publish this wiki.
 
 This wiki uses "Learn2 with Git Sync Site" skeleton.
 
