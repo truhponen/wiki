@@ -9,9 +9,11 @@ routes:
     default: /zigbee-network
 ---
 
-Zigbee network consists:
-* [Zigbee2MQTT](/zigbee2mqtt) software bridge
-* [Zigbee coordinator](/zigbee-coordinator)
+Zigbee network is used to send [Zigbee messages](/zigbee-messages).
+
+Network is coordinated by  [Zigbee coordinator](/zigbee-coordinator) which works in tandem with [Zigbee2MQTT](/zigbee2mqtt) software bridge.
+
+There is different types of physical devices connected to network:
 * [Zigbee router](/zigbee-router)
 * [Lights](/lights)
 * [Sensors](/sensors)
