@@ -5,6 +5,8 @@ taxonomy:
     category:
         - docs
 media_order: 'Zigbee network 2025-01-20 162744.png'
+routes:
+    default: /zigbee-network
 ---
 
 Zigbee network consists:
