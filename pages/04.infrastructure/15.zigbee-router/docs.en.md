@@ -10,7 +10,9 @@ routes:
 
 Zigbee router is physical device that extends [Zigbee coordinator's](/zigbee-coordinator) network.
 
-Current Zigbee router is SONOFF ZB Dongle -E USB Dongle Plus. Aliexpress merchant had incorrect product information and when I ordered model P they shipped "model E". Eventually I got device for free and I flashed to be router.  
+Current Zigbee router is SONOFF ZB Dongle -E USB Dongle Plus. Aliexpress merchant had incorrect product information and when I ordered model P they shipped "model E". Eventually I got device for free and I flashed to be router.
+
+Also some [lights](/lights) are working as Zigbee routers.
 
 **External sources:**
 * [https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-e/](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-e/)
