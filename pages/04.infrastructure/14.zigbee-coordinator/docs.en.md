@@ -8,7 +8,7 @@ routes:
     default: /zigbee-coordinator
 ---
 
-Zigbee coordinator is physical device that is central part of [Zigbee network](/zigbee-network).
+Zigbee coordinator is physical device that is central part of [Zigbee network](/zigbee-network) and it works in tandem with [Zigbee2MQTT software bridge](/zigbee2mqtt).
 
 Current Zigbee coordinator is SONOFF Zigbee 3.0 USB Dongle Plus ZBDongle-P.
 
