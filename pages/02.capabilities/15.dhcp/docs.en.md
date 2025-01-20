@@ -4,6 +4,8 @@ date: '07:38 20-01-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /dhcp
 ---
 
 DHCP is handled by [LAN router](/lan).
