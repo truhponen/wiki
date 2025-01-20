@@ -1,9 +1,11 @@
 ---
-title: Router
+title: Routers
 date: '13:32 20-01-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /routers
 ---
 
 [Home LAN](/lan) uses TP-link Deco mesh routers.
