@@ -7,7 +7,7 @@ taxonomy:
 child_type: docs
 slug: grav
 routes:
-    default: /grav
+    default: /grav-cms
 ---
 
 Grav CMS is used to publish this wiki.
