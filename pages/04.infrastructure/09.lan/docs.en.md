@@ -10,7 +10,7 @@ routes:
 
 Our home's local area network consists:
 
-* TP-link Deco mesh routers
+* [Mesh routers](/routers)
 * ZyXEL GS-105B and GS-108B v3 switches
 * ZyXEL GS1200-8 switch
 
