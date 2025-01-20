@@ -10,7 +10,7 @@ routes:
 
 Public transportation schedules are displayed in [Home Assistant](/home-assistant) UI.
 
-1. Home Assistant's "REST sensor" fetches schedules from HSL and stores those to sensor.
+1. Home Assistant's "REST sensor" fetches schedules from HSL and stores those to [Home assistant](/home-assistant) sensor.
 2. UI diplays information in formatted way.
 
 **External sources:**
