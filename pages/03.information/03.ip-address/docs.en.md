@@ -8,4 +8,6 @@ routes:
     default: /ip-address
 ---
 
-IP addresses are assigned by [router](/routers) 
+[IP addresses are assigned](/dhcp) by [router](/routers).
+
+Also [Tecnitium DNS](/technitium-dns) would have DHCP capability but it's not used.
