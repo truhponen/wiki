@@ -19,4 +19,4 @@ Zigbee network consists:
 
 
 **Screenshot of network scan 20.1.2025**
-![Zigbee%20network%202025-01-20%20162744](Zigbee%20network%202025-01-20%20162744.png "Zigbee%20network%202025-01-20%20162744")
+![Zigbee network 20.1.2025](Zigbee%20network%202025-01-20%20162744.png "Zigbee network 20.1.2025")
