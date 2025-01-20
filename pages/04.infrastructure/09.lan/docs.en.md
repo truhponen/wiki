@@ -16,7 +16,7 @@ Our home's local area network consists:
 
 Deco mesh routers form backbone of local area network. Network is not wired as I'm lazy and all walls are thick concrete. Most of devices have wired connection to nearest deco through ZyXEL switches.
 
-Currently only IPv4 network is enabled. This is due to DHCP configurations. Devices in home's LAN should use [internal Technitium DNS](/technitium-dns) as primary DNS. This eases [accessing applications](/access-to-applications) by skipping [Cloudflare](/cloudflare) authentication and speeds up DNS resolution. Currently Deco router is handling DHCP but doesn't seem to offer DHCP for IPv6 network. So, there is no easy way to distribute local IPv6 nameserver to devices in network. [Technitium DNS](/technitium-dns) could also act as a DHCP server but it neither offers DHCPv6.
+Currently only IPv4 network is enabled. This is due to [DHCP](/dhcp) configurations.
 
 **External sources**
 * [https://en.wikipedia.org/wiki/DHCPv6](https://en.wikipedia.org/wiki/DHCPv6)
