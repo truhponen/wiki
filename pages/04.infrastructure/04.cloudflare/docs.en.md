@@ -8,6 +8,6 @@ routes:
     default: /cloudflare
 ---
 
-Cloudflare is used for DNS and Zero Trust. It provides access to [applications](/applications), [infra applications](/infra-applications) and other [infrastructure](/infrastructure) components.
+Cloudflare is used for DNS, certificates, Zero Trust access and SSH browser rendering. 
 
-Cloudflare tunnels replaced earlier [Open VPN](/open.vpn) implementation.
+[Access to home network](/access-to-applications) goes through Cloudflare Zero Trust tunnels which replaced earlier [Open VPN](/open-vpn) implementation. Cloudflare is used to manage users, login and device enrollment.
