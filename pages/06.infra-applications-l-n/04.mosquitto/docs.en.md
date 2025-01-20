@@ -11,7 +11,7 @@ routes:
 Mosquitto is MQTT message broker. It acts as a hub for MQTT messages different systems can send and subscribe messages from Mosquitto.
 
 Different senders and suscribers of [MQTT messages](/mqtt-messages):
-* [Open MQTT Gateway](/open-mqtt-gateway)
-* [Zigbee2MQTT](/zigbee2mqtt)
 * [Home Assistant](/home-assistan)
+* [Open MQTT Gateway](/open-mqtt-gateway)
 * [Telegraf](/telegraf)
+* [Zigbee2MQTT](/zigbee2mqtt)
