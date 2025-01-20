@@ -8,5 +8,6 @@ taxonomy:
 
 [Home LAN](/lan) uses TP-link Deco mesh routers.
 
+**Router models:**
 * [https://www.tp-link.com/us/deco-mesh-wifi/product-family/deco-x60/](https://www.tp-link.com/us/deco-mesh-wifi/product-family/deco-x60/)
 * [https://www.tp-link.com/us/deco-mesh-wifi/product-family/deco-m5/](https://www.tp-link.com/us/deco-mesh-wifi/product-family/deco-m5/)
