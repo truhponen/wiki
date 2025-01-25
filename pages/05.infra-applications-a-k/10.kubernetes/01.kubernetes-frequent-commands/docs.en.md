@@ -6,8 +6,6 @@ taxonomy:
         - docs
 ---
 
-
-
 Install Flannel (https://github.com/flannel-io/flannel)
 
     kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
