@@ -23,3 +23,9 @@ Get details of single or all nodes (helps when status of node is NotReady=)
     kubectl describe node dell-optiplex-5050
 
     kubectl describe nodes
+ 
+ Get pods from a namespace or all namespaces
+ 
+     
+ 
+     kubectl get pods -A
