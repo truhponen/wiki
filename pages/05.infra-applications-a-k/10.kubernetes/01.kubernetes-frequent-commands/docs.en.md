@@ -18,16 +18,17 @@ List nodes
 
     kubectl get nodes
 
-Get details of single or all nodes (helps when status of node is NotReady)
+Get details of single node (helps when status of node is NotReady)
 
     kubectl describe node dell-optiplex-5050
+
+Get details of all nodes (helps when status of node is NotReady)
 
     kubectl describe nodes
  
 Get pods from a namespace or all namespaces
  
     kubectl get pods --namespace=kube-system
-
 
 Get pods from all namespaces
  
