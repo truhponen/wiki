@@ -8,8 +8,6 @@ taxonomy:
 
 Installation
 
-source: 
-
 1. Install with Helm
 
    https://purelb.gitlab.io/purelb/install/install/
