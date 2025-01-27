@@ -18,6 +18,6 @@ taxonomy:
 
         kubectl apply -f https://raw.githubusercontent.com/truhponen/home/refs/heads/main/kubernetes/purelb/servicegroup-default.yaml
 
-Some test
+## Some test
 
     kubectl apply -f https://raw.githubusercontent.com/truhponen/home/refs/heads/main/kubernetes/purelb/test-configuration.yaml
