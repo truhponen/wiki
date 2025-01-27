@@ -1,5 +1,5 @@
 ---
-title: 'Install Kubernetes - Bootstrap cluster'
+title: '1. Bootstrap cluster'
 date: '11:45 27-01-2025'
 taxonomy:
     category:
