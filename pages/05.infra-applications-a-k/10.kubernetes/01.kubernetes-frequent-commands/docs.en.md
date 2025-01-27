@@ -24,9 +24,12 @@ Get details of single or all nodes (helps when status of node is NotReady)
 
     kubectl describe nodes
  
- Get pods from a namespace or all namespaces
+Get pods from a namespace or all namespaces
  
     kubectl get pods --namespace=kube-system
+
+
+Get pods from all namespaces
  
     kubectl get pods -A
   
