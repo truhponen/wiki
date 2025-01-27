@@ -1,5 +1,5 @@
 ---
-title: '1. Bootstrap cluster'
+title: 'Add nodes to cluster'
 date: '11:45 27-01-2025'
 taxonomy:
     category:
