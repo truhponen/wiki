@@ -6,11 +6,11 @@ taxonomy:
         - docs
 ---
 
-#### Create kubernetes user to control plane host
-
 #### Bootstrap cluster
 
 related shell script https://github.com/truhponen/home/blob/main/kubernetes/kubernetes-crio-flannel.sh
+
+Run as kubernetes sudo user
 
 Install basics:
 * Container runtime: cri-o
