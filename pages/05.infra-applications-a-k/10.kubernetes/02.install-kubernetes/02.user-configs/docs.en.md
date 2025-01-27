@@ -1,5 +1,5 @@
 ---
-title: 'Install Kubernetes - User configs'
+title: 'User configs'
 date: '11:45 27-01-2025'
 taxonomy:
     category:
