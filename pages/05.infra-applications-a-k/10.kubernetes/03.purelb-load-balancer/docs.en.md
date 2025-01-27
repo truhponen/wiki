@@ -6,7 +6,7 @@ taxonomy:
         - docs
 ---
 
-Installation
+## Installation
 
 1. Install with Helm
 
