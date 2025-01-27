@@ -26,11 +26,11 @@ Get details of single or all nodes (helps when status of node is NotReady)
  
  Get pods from a namespace or all namespaces
  
-     kubectl get pods --namespace=kube-system
+    kubectl get pods --namespace=kube-system
  
-     kubectl get pods -A
+    kubectl get pods -A
   
  
-     kubectl apply -f https://raw.githubusercontent.com/truhponen/home/refs/heads/main/kubernetes/purelb/servicegroup-default.yaml
+    kubectl apply -f https://raw.githubusercontent.com/truhponen/home/refs/heads/main/kubernetes/purelb/servicegroup-default.yaml
  
-     kubectl apply -f https://raw.githubusercontent.com/truhponen/home/refs/heads/main/kubernetes/purelb/test-configuration.yaml
+    kubectl apply -f https://raw.githubusercontent.com/truhponen/home/refs/heads/main/kubernetes/purelb/test-configuration.yaml
