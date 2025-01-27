@@ -18,7 +18,7 @@ https://purelb.gitlab.io/purelb/install/install/
 
    https://purelb.gitlab.io/purelb/install/config/
 
-       kubectl apply -f https://raw.githubusercontent.com/truhponen/home/refs/heads/main/kubernetes/purelb/servicegroup-default.yaml
+        kubectl apply -f https://raw.githubusercontent.com/truhponen/home/refs/heads/main/kubernetes/purelb/servicegroup-default.yaml
 
 Some test
 
