@@ -6,6 +6,10 @@ taxonomy:
         - docs
 ---
 
+Add shorthands
+
+    alias k="kubectl" d="kubectl describe" g="kubectl get"
+
 Install Flannel (https://github.com/flannel-io/flannel)
 
     kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
