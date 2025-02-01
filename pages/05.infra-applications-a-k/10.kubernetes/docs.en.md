@@ -8,4 +8,6 @@ routes:
     default: /kubernetes
 ---
 
-Your page content goes here.
+Kubernetes setup
+
+[https://github.com/truhponen/home/tree/main/kubernetes](https://github.com/truhponen/home/tree/main/kubernetes)
