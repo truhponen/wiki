@@ -17,3 +17,7 @@ There is two types of flavors in applications "end user" and "infra".
 "Infra" -applications are supporting "End user" -applications.
 
 Of course, split is nowhere clear.
+
+[More applications](/applications-2)
+
+[Even more applications](/applications-3)
