@@ -6,6 +6,10 @@ taxonomy:
         - docs
 ---
 
+Add zabbly repository
+
+... from https://github.com/zabbly/incus
+
 ### Install application
 
     apt install incus
