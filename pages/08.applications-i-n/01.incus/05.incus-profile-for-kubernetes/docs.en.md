@@ -6,6 +6,7 @@ taxonomy:
         - docs
 ---
 
+```
 name: k8s
 description: Incus profile for Kubernetes
 devices:
@@ -33,3 +34,4 @@ config:
     incus.apparmor.profile=unconfined nlxc.cap.drop= 
     nlxc.cgroup.devices.allow=a nlxc.mount.auto=proc:rw sys:rw
 project: default
+```
