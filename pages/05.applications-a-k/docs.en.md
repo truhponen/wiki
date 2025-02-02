@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /infra-applications
+    default: /applications
 external_links:
     title: true
 ---
