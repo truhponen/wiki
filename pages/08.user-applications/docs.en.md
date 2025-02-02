@@ -1,9 +1,9 @@
 ---
-title: 'User applications'
+title: 'Operating systems'
 taxonomy:
     category:
         - docs
 child_type: docs
 ---
 
-User applications are used by end user.
+Linux is used in all [servers](/computers).
