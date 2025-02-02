@@ -6,6 +6,7 @@ taxonomy:
         - docs
 ---
 
+```
 name: networking-bridged
 description: ''
 devices:
@@ -16,3 +17,4 @@ devices:
     type: nic
 config: {}
 project: default
+```
