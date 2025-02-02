@@ -21,4 +21,4 @@ There is different types of physical devices connected to network:
 
 
 **Screenshot of network scan 20.1.2025**
-![Zigbee network 20.1.2025](Zigbee%20network%202025-01-20%20162744.png "Zigbee network 20.1.2025")
+![Zigbee network 20.1.2025](Zigbee%20network%202025-01-20%20162744.png?resize=800 "Zigbee network 20.1.2025")
