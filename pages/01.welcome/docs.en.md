@@ -11,8 +11,9 @@ This wiki documents architecture and instructions of our home automation.
 You can dig deeper from different angles:
 * [Capabilities](/capabilities) describes outcomes of home automation
 * [Information](/information) describes different information types that are processed in home automation
-* [Infrastructure](/infrastructure) describes physical basis for home automation
-* [Infra application](/infra-applications) describe applications that for the basis for home automation application
-* [User applications](/user-applications) describe different types of home automation applications
+* [Cloud infrastructure](/cloud-infrastructure) describes cloud solutions used for home automation
+* [Infrastructure](/infrastructure) describes physical devices used for home automation
+* [Operating systems](/operating-systems) describes operating systems used in infrastructure devices
+* [Application](/applications) describe different types of applications that are used to maintain home automation - some of these application are more "infra" type and others more "end user" type.
 
 Most detailed documentation is in configuration files of each application in form of comments.
