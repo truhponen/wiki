@@ -1,5 +1,5 @@
 ---
-title: 'applications: O-Ö'
+title: 'Applications: O-Ö'
 taxonomy:
     category:
         - docs
