@@ -21,7 +21,7 @@ There is different types of sensors
 
 #### Suomen Lämpömittari Sensor
 
-![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg?resize=200 "SuomenLampomittariSensori")
+![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg?resize=400 "SuomenLampomittariSensori")
 
 ## Zigbee sensors
 
