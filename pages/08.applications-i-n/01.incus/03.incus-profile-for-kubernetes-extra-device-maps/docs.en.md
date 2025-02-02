@@ -6,6 +6,7 @@ taxonomy:
         - docs
 ---
 
+```
 name: k8s-preflight
 description: Incus profile for Kubernetes with some extra device maps
 devices:
@@ -29,3 +30,4 @@ devices:
     path: /lib/modules/6.8.0-41-generic
     source: /lib/modules/6.8.0-41-generic
     type: disk
+  ```
