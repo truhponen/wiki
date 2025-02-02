@@ -1,5 +1,5 @@
 ---
-title: 'Incus profile for Kubernetes'
+title: 'Incus profile for Kubernetes - extra device maps'
 date: '08:44 02-02-2025'
 taxonomy:
     category:
