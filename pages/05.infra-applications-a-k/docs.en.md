@@ -1,5 +1,5 @@
 ---
-title: 'Infra applications: A-K'
+title: 'Applications: A-K'
 date: '00:06 22-12-2024'
 taxonomy:
     category:
@@ -10,6 +10,10 @@ external_links:
     title: true
 ---
 
-Infra applications are supporting User applications.
+There is two types of flavors in applications "end user" and "infra".
 
-Infra applications are split alphabetically in three groups.
+"End user" -applications are used by end user.
+
+"Infra" -applications are supporting "End user" -applications.
+
+Of course, split is nowhere clear.
