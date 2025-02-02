@@ -1,5 +1,5 @@
 ---
-title: 'Infra applications: O-Ö'
+title: 'applications: O-Ö'
 taxonomy:
     category:
         - docs
