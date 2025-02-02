@@ -1,5 +1,5 @@
 ---
-title: 'Applications: L-N'
+title: 'Applications: I-N'
 taxonomy:
     category:
         - docs
