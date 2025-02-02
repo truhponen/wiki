@@ -17,7 +17,7 @@ There is different types of sensors
 
 #### Clas Ohlson Sensor
 
-![Clas Ohlson Sensor](ClasOhlsonSensori.png?resize=100 "ClasOhlsonSensori")
+![Clas Ohlson Sensor](ClasOhlsonSensori.png?resize=150 "ClasOhlsonSensori")
 
 #### Suomen Lämpömittari Sensor
 
