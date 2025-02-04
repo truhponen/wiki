@@ -1,5 +1,5 @@
 ---
-title: 'Operating systems'
+title: 'Operating and file systems'
 taxonomy:
     category:
         - docs
