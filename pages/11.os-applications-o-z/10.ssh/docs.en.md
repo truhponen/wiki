@@ -6,10 +6,6 @@ taxonomy:
         - docs
 ---
 
-Generate private-public key pair
+SSH is the defacto way to [access](/https://wiki.kotimme.cc/en/ssh-from-outside-of-home-network) remote [computers](/computers).
 
-    ssh-keygen -t ed25519 -C "[comment here]"
-    
- Copy public key to remote
- 
-    ssh-copy-id -i ~/.ssh/ansible.pub 192.168.68.50
+It is natively used by e.g. [Git](/git) and [Ansible](/ansible) to connect remote servers.
