@@ -4,10 +4,10 @@ date: '20:17 04-02-2025'
 taxonomy:
     category:
         - docs
-media_order: 'Kotimme architecture.png'
+media_order: 'Kotimme - architecture.png'
 ---
 
-![Kotimme%20architecture](Kotimme%20architecture.png "Kotimme%20architecture")
+![Kotimme%20-%20architecture](Kotimme%20-%20architecture.png "Kotimme%20-%20architecture")
 
 ### Links to content
 * Yellow
