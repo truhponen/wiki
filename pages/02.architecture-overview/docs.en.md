@@ -20,6 +20,8 @@ media_order: 'Kotimme - architecture.png'
 * [Docker](/docker)
 * [Hue bridge](/hue-bridge)
 * [Hue network]((hue-network)
+* [Kubernetes cluster](/kubernetes)
+* [Namespace](/namespace)
 * [Lights](/lights)
 * [Linux OS](/linux)
 * [Local area network](/lan) 
