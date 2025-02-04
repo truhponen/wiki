@@ -8,4 +8,4 @@ routes:
     default: /github
 ---
 
-Github is online git repository.
+Github is online git repository. It is used to manage [Ansible](/ansible) playbooks and [Kubernetes](kubernetes) configurations as well to store this [wiki](wiki).
