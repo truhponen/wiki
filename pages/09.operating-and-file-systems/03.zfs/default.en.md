@@ -7,4 +7,4 @@ routes:
 
 ZFS file system is has been used in [Proxmox](/proxmox) computers and in [HDD dock](/hdd-dock) to create to create raid 1 array.
 
-Raid is shared to other computers using ZFS's native [NFS](/nfs) capability.
+ZFS has native [NFS](/nfs) capability.
