@@ -8,6 +8,6 @@ routes:
     default: /portainer
 ---
 
-Portainer is management UI for [Docker](/docker) containers.
+Portainer is management UI for [Docker](/docker) containers and [Kubernetes](/kubernetes) cluster.
 
-Each [LXC](/lxc) that has Docker also has Portainer.
+There is single Portainer instance which is connected to [Dockers](/docker) on each [LXC](/lxc).
