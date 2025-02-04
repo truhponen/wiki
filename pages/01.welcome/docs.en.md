@@ -4,6 +4,7 @@ date: '23:42 21-12-2024'
 taxonomy:
     category:
         - docs
+media_order: 'Kotimme architecture.png'
 ---
 
 This wiki documents architecture and instructions of our home automation.
@@ -17,3 +18,5 @@ You can dig deeper from different angles:
 * [Application](/applications) describe different types of applications that are used to maintain home automation - some of these application are more "infra" type and others more "end user" type.
 
 Most detailed documentation is in configuration files of each application in form of comments.
+
+![Kotimme%20architecture](Kotimme%20architecture.png "Kotimme%20architecture")
