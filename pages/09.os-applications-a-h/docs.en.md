@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /applications
+    default: /os-applications-a-h
 external_links:
     title: true
 ---
