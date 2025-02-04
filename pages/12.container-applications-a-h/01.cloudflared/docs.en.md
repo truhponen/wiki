@@ -12,4 +12,4 @@ Cloudflared-application is used for [accessing home network](/access-to-applicat
 
 Cloudflared-application is the private end of [Cloudflare-tunnel](/cloudflare). Public end is in [Cloudflare-cloud infrastructure](/cloudflare).
 
-Cloudflared-application runs in [Docker-container](/docker) and it's in the same [Docker-network](/docker-network) with [HAProxy](/haproxy).
+Cloudflared-application runs in [Docker](/docker) and it's in the same [Docker-network](/docker-network) with [HAProxy](/haproxy).
