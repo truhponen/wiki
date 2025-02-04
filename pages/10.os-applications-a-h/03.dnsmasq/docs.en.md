@@ -8,7 +8,7 @@ routes:
     default: /dnsmasq
 ---
 
-DNSmasq is simple DNS solution.
+DNSmasq is simple [DNS](/domains) solution.
 
 Currently not used in Kotimme infrastructure.
 
