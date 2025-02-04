@@ -4,5 +4,7 @@ date: '09:45 04-02-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /os-applications
 ---
 
