@@ -6,6 +6,8 @@ taxonomy:
         - docs
 routes:
     default: /container-applications-a-h
+permissions:
+    inherit: true
 ---
 
 Your page content goes here.
