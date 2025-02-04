@@ -6,4 +6,4 @@ taxonomy:
         - docs
 ---
 
-Cloud infrastructure is "someone else's" infrastructure.
+Cloud infrastructure typically consists "someone else's computers".
