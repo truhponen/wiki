@@ -6,7 +6,7 @@ taxonomy:
         - docs
 ---
 
-This wiki documents architecture and instructions of our home automation.
+This wiki documents [architecture](/architecture-overview) and instructions of our home automation.
 
 You can dig deeper from different angles:
 * [Capabilities](/capabilities) describes outcomes of home automation
