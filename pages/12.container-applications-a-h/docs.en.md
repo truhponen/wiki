@@ -8,4 +8,6 @@ routes:
     default: /container-applications
 ---
 
-Container applications are applications which are running in [Docker](/docker) containers.
+Container applications are applications which are running in [Docker](/docker).
+
+There is plan to use [Kubernetes](/kubernetes) to run [container](/containers).
