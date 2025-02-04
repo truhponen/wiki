@@ -8,4 +8,4 @@ routes:
     default: /file-browser
 ---
 
-Your page content goes here.
+File browser has been replaced with [Filestash](/filestash).
