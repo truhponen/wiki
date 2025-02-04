@@ -13,19 +13,20 @@ media_order: 'Kotimme architecture.png'
 * Yellow
    * [Capabilities](/capabilities)
 *  Green
-   * Login (Cloudflare)
+   * [Login](/access-to-applications)
    * UI - no documentation yet
-   * Buttons
-   * Lights
+   * [Buttons](/buttons)
+   * [Lights](/lights)
 * White
-   * Sensors
-   * Zigbee router
+   * [Sensors](/sensors)
+   * [Zigbee router](/zigbee-router)
    * [Container application](/container-application)
-   * Cloudflare
+   * [Cloudflare](/cloudflare)
 * Shades of grey
-   * LAN
-   * Zigbee network
-   * Hue network
+   * [Zigbee network](zigbee-network)
+   * [Hue network]((hue-network)
+   * [Cloudflare](/cloudflare)
+   * [Local are network](/lan)
    * [Docker](/docker)
    * [LXC](/lxc)
    * [Proxmox cluster](/proxmox)
@@ -34,4 +35,3 @@ media_order: 'Kotimme architecture.png'
    * [Zigbee coordinator](/zigbee-coordinator)
    * [Hue bridge](/hue-bridge)
    * [433MHz adapter](/433mhz-adapter)
-* 
