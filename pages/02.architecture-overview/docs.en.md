@@ -14,6 +14,7 @@ media_order: 'Kotimme - architecture.png'
 * [Buttons](/buttons)
 * [Capabilities](/capabilities)
 * [Cloudflare](/cloudflare)
+* [Cloudflare tunnel](/cloudflared)
 * [Computers](/computers)
 * [Container application](/container-application)
 * [Docker](/docker)
