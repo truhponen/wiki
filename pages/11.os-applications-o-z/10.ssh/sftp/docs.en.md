@@ -4,6 +4,8 @@ date: '20:06 04-02-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /sftp
 ---
 
 SFTP is secure file tranfer protocol which uses [SSH](/ssh) to secure transfer.
