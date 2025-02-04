@@ -15,7 +15,7 @@ You can dig deeper from different angles:
 * [Cloud infrastructure](/cloud-infrastructure) describes cloud solutions used for home automation
 * [Infrastructure](/infrastructure) describes physical devices used for home automation
 * [Operating systems](/operating-systems) describes operating systems used in infrastructure devices
-* [Application](/applications) describe different types of applications that are used to maintain home automation - some of these application are more "infra" type and others more "end user" type.
+* [Application](/applications) describe different types of applications that are used in Kotimme-architecture.
 
 Most detailed documentation is in configuration files of each application in form of comments.
 
