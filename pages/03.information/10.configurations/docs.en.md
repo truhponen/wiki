@@ -6,4 +6,6 @@ taxonomy:
         - docs
 ---
 
-All [software](/software) has some kind of configuration. Expecially prominent configurations are in [container applications](container-applications).
+All [software](/software) has some kind of configuration. Especially prominent configurations are in [container applications](/container-applications).
+
+Configuration can be [managed manually](/editing-configuration-files) or with more automated flows utilizing [Ansible](/ansible) and [Git](/git). 
