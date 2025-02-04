@@ -9,7 +9,9 @@ template: /applications
 
 There is different types of software.
 
-[Operating and file systems](/operating-and-file-systems) are used to run [computers](computers).
+[Operating and file systems](/operating-and-file-systems) are used to run [computers](computers) that provide the basis for home automation. 
+
+[Embedded software](/embedded-software) is flashed straight to "embedded systems", i.e. special purpose computers such as ESP32-boards.
 
 OS application run on [operating system](/operating-systems) level and are typically "infra"-type of applications, i.e. they provide technical capabilities for actual home automation applications.
 * [OS applications: A-H](/os-applications-a-h)
@@ -18,5 +20,3 @@ OS application run on [operating system](/operating-systems) level and are typic
 Container applications run in containers, home automation capabilities are are offered by these systems and most of applications are accessible by end user.
 * [Container applications A-H](/container-applications-a-h)
 * [Container applications I-Z](/container-applications-i-z)
-
-[Embedded software](/embedded-software) is flashed straight to computers.
