@@ -8,3 +8,4 @@ routes:
     default: /os-applications
 ---
 
+OS applications are run by [operating system](/operating-systems).
