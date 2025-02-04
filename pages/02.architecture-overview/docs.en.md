@@ -13,25 +13,25 @@ media_order: 'Kotimme - architecture.png'
 * Yellow
    * [Capabilities](/capabilities)
 *  Green
-   * [Login](/access-to-applications)
-   * UI - no documentation yet
    * [Buttons](/buttons)
+   * [Login](/access-to-applications)
    * [Lights](/lights)
+   * UI - no documentation yet
 * White
-   * [Sensors](/sensors)
+   * [Cloudflare](/cloudflare)
    * [Container application](/container-application)
-   * [Cloudflare](/cloudflare)
+   * [Sensors](/sensors)
 * Shades of grey
-   * [Zigbee network](zigbee-network)
-   * [Hue network]((hue-network)
+   * [433MHz adapter](/433mhz-adapter)
    * [Cloudflare](/cloudflare)
-   * [Local area network](/lan)
+   * [Computers](/computers)
    * [Docker](/docker)
+   * [Hue bridge](/hue-bridge)
+   * [Hue network]((hue-network)
+   * [Local area network](/lan)
+   * [Linux OS](/linux)
    * [LXC](/lxc)
    * [Proxmox cluster](/proxmox)
-   * [Linux OS](/linux)
-   * [Computers](/computers)
-   * [Zigbee router](/zigbee-router)
    * [Zigbee coordinator](/zigbee-coordinator)
-   * [Hue bridge](/hue-bridge)
-   * [433MHz adapter](/433mhz-adapter)
+   * [Zigbee network](zigbee-network)
+   * [Zigbee router](/zigbee-router)
