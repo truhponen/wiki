@@ -12,4 +12,5 @@ Kubernetes is currently tested if it could replace current [LXC](/lxc) and [Dock
 
 Kubernetes [configuration](/configurations) are managed in [Github](/github).
 
-[https://github.com/truhponen/home/tree/main/kubernetes](https://github.com/truhponen/home/tree/main/kubernetes)
+**External sources**
+* [https://github.com/truhponen/home/tree/main](https://github.com/truhponen/home/tree/main)
