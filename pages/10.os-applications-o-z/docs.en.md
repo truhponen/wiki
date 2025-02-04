@@ -5,7 +5,7 @@ taxonomy:
         - docs
 child_type: docs
 routes:
-    default: /infra-applications-2
+    default: /os-applications-o-z
 ---
 
 Infra applications are supporting User applications.
