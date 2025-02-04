@@ -8,8 +8,8 @@ routes:
     default: /filestash
 ---
 
-Filestash file management facade. It's main purpose is to simplify editing various configurations files.
+Filestash file management facade. It's main purpose is to simplify [editing](/editing-configuration-files) various [configurations](/configurations) files.
 
-In practice, Filestash provides SFTP connection to servers and simple browser UI for browsing and editing files.
+In practice, Filestash provides [SFTP connection](/sftp) to servers and simple browser UI for browsing and editing files.
 
-Local configuration folders are configured to Filestash to streamline access.
+Local [configuration folders](/editing-configuration-files) are configured to Filestash to streamline access.
