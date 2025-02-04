@@ -8,4 +8,4 @@ routes:
     default: /open-vpn
 ---
 
-VPN has been replaced with [Cloudflare](/cloudflare) tunnels.
+OpenVPN has been replaced with [Cloudflare](/cloudflare) tunnels.
