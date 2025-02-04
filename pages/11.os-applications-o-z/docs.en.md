@@ -5,6 +5,6 @@ taxonomy:
     category:
         - docs
 routes:
-    default: os-applications-2
+    default: /os-applications-2
 ---
 
