@@ -4,6 +4,7 @@ date: '23:42 21-12-2024'
 taxonomy:
     category:
         - docs
+media_order: 'Kotimme architecture.png'
 ---
 
 This wiki documents architecture and instructions of our home automation.
