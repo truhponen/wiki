@@ -11,12 +11,12 @@ There is different types of software.
 
 [Operating and file systems](/operating-and-file-systems) are used to run [computers](computers).
 
-OS application run on [operating system](/operating-systems) level and are typically "infra"-type of applications.
+OS application run on [operating system](/operating-systems) level and are typically "infra"-type of applications, i.e. they provide technical capabilities for actual home automation applications.
 * [OS applications: A-H](/os-applications-a-h)
 * [OS applications: O-Z](/os-applications-o-z)
 
-Container applications run in containers and are many times used by end user.
+Container applications run in containers, home automation capabilities are are offered by these systems and most of applications are accessible by end user.
 * [Container applications A-H](/container-applications-a-h)
 * [Container applications I-Z](/container-applications-i-z)
 
-[Embedded software](/embedded-software) is flashed straight to computer
+[Embedded software](/embedded-software) is flashed straight to computers.
