@@ -8,7 +8,7 @@ routes:
     default: /ssh-from-outside-of-home-network
 ---
 
-There is two ways to SSH to kotimme.cc infra from outside of home network.
+There is two ways to [SSH](/ssh) to kotimme.cc infra from outside of home network.
 
 1. When device has [Cloudlare](/cloudflare) Warp-connections active. Internal IP addresses can be reached from device and you can use any terminal application on device.
 2. [Cloudlare's](/cloudflare) "SSH browser rendering". In practice there is subdomains (ssh...kotimme.cc) for each backend systems. After logging into [Cloudlare](/cloudflare) it is possible to login to [servers](/computers) and [LXCs](https://wiki.kotimme.cc/en/lxc).
