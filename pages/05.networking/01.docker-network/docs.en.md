@@ -6,4 +6,4 @@ taxonomy:
         - docs
 ---
 
-Your page content goes here.
+Docker network is formed between [docker container](/docker). It is separated from[ local area network](/lan) for security purposes.
