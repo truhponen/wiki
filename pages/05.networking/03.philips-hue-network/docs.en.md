@@ -6,4 +6,4 @@ taxonomy:
         - docs
 ---
 
-Your page content goes here.
+Philips Hue network is Zigbee network where [Philips Hue bridge](/hue-bridge) acts are a coordinator.
