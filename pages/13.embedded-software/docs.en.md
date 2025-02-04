@@ -6,4 +6,8 @@ taxonomy:
         - docs
 ---
 
-Embedded software (a.k.a firmware) is currently used in [433mhz adapter](/433mhz-adapter).
+Embedded software (a.k.a firmware) is used in embedded systems.
+
+I have manually flashed:
+* [Zigbee router](/zigbee-router)
+* [433MHz adapter](/433mhz-adapter)
