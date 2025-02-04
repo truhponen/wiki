@@ -4,6 +4,8 @@ date: '19:44 04-02-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /git
 ---
 
 Git is version management solution.
