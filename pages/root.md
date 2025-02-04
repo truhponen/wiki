@@ -2,11 +2,13 @@
 routable:
     - false
     - false
+    - false
 permissions:
+    inherit: false
     authors:
         - tuomo
     groups:
-        authors:
+        defaults:
             update: true
             create: true
 ---
