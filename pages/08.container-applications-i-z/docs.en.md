@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /container-applications-2
+    default: /container-applications-i-z
 ---
 
 Your page content goes here.
