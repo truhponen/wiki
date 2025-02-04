@@ -7,3 +7,10 @@ taxonomy:
 ---
 
 Cloud infrastructure typically consists "someone else's computers".
+
+Currently used cloud solutions
+* [Cloudflare](/cloudflare) is used to access [local area network](/lan) from public internet
+* [Github](/github) is used to store
+   * content of this [wiki](/wiki)
+   * [ansible](/ansible) playbooks
+   * [kubernetes](/kubernetes) configurations
