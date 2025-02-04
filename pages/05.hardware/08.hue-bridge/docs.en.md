@@ -8,6 +8,6 @@ routes:
     default: /hue-bridge
 ---
 
-Hue bridge is used to control Philips Hue [lights](/lights).
+Hue bridge is used to control Philips Hue [lights](/lights). Hue bridge form dedicated network even though technically it is Zigbee network. 
 
 Hue bridge has similar role as [Zigbee coordinator](/zigbee-coordinator).
