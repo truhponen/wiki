@@ -1,5 +1,5 @@
 ---
-title: 'Applications: A-H'
+title: 'Other applications: A-H'
 date: '00:06 22-12-2024'
 taxonomy:
     category:
@@ -10,13 +10,11 @@ external_links:
     title: true
 ---
 
-There is two types of flavors in applications "end user" and "infra".
+There is two types of flavors in applications "container" and "other".
 
-"End user" -applications are used by end user.
+"Container" -applications run in containers and are many times used by end user.
 
-"Infra" -applications are supporting "End user" -applications.
-
-Of course, split is nowhere clear.
+"Other" -applications are typically lower level "infra"-type of applications.
 
 [More applications](/applications-2)
 
