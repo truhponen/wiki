@@ -23,9 +23,9 @@ There is different types of sensors
 
 ![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg?resize=400 "SuomenLampomittariSensori")
 
-## Zigbee sensors
+## Sensors with Zigbee
 
 Zigbee sensors are used to track motion and lightness.
 
-* Philips Hue motion sersors integrated through [Zigbee2MQTT](/zigbee2mqtt)
-* Philips Hue motion sersors integrated through [Hue bridge](/hue-bridge)
+* Some Philips Hue motion sensors are integrated through [Zigbee2MQTT](/zigbee2mqtt)
+* Some Philips Hue motion sensors are integrated through [Hue bridge](/hue-bridge)
