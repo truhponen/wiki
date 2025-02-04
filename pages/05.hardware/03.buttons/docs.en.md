@@ -8,9 +8,7 @@ routes:
     default: /buttons
 ---
 
-## Zigbee buttons
+Buttons are used to control [lights](/lights) and [audio devices](/audio-devices).
 
-Zigbee buttons are used to control [lights](/lights) and [audio devices](/audio-devices).
-
-* Ikea buttons integrated through [Zigbee2MQTT](/zigbee2mqtt)
-* Philips Hue buttons are integrated through [Hue bridge](/hue-bridge)
+* Ikea buttons integrated through [Zigbee2MQTT](/zigbee2mqtt) and used to [home assistant automations](/home-assistant-automations) which control [lights](/lights) and [audio devices](/audio-devices).
+* Philips Hue buttons are integrated through [Hue bridge](/hue-bridge) and used to control [lights](/lights) 
