@@ -7,7 +7,7 @@ taxonomy:
 template: /applications
 ---
 
-There is different types of software "container" and "OS".
+There is different types of software.
 
 [Operating and file systems](/operating-and-file-systems) are used to run [computers](computers).
 
