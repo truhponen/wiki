@@ -1,5 +1,5 @@
 ---
-title: 'Other applications: A-H'
+title: 'OS applications: A-H'
 date: '00:06 22-12-2024'
 taxonomy:
     category:
@@ -10,12 +10,8 @@ external_links:
     title: true
 ---
 
-There is two types of flavors in applications "container" and "other".
+There is two types of flavors in applications "container" and "OS".
 
 "Container" -applications run in containers and are many times used by end user.
 
-"Other" -applications are typically lower level "infra"-type of applications.
-
-[More applications](/applications-2)
-
-[Even more applications](/applications-3)
+"OS" -applications run on [operating system](/operating-systems) level and are typically "infra"-type of applications.
