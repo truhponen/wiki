@@ -8,4 +8,4 @@ routes:
     default: /container-applications
 ---
 
-Your page content goes here.
+Container applications are applications which are running in [Docker](/docker) containers.
