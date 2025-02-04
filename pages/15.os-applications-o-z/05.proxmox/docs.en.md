@@ -3,6 +3,9 @@ title: Proxmox
 date: '20:22 21-12-2024'
 routes:
     default: /proxmox
+taxonomy:
+    category:
+        - docs
 ---
 
 Proxmox is Debian [Linux](/linux) based virtualization cluster. Promox [cluster](/https://pve.proxmox.com/pve-docs/chapter-pvecm.html) consists three [computers](/amd64-computers). Three computers are needed to have [quorum](/https://pve.proxmox.com/pve-docs/chapter-pvecm.html).
