@@ -10,4 +10,4 @@ routes:
 
 Cloudflare is used for DNS, certificates, Zero Trust access and SSH browser rendering. 
 
-[Access to home network](/access-to-applications) goes through Cloudflare Zero Trust tunnels which replaced earlier [Open VPN](/open-vpn) implementation. Cloudflare is used to manage users, login and device enrollment.
+[Access to home network](/access-to-applications) goes through Cloudflare Zero Trust tunnels which replaced earlier [Open VPN](/open-vpn) implementation. Cloudflare handles access management, login and device enrollment.
