@@ -17,11 +17,11 @@ There is different types of sensors
 
 #### Clas Ohlson Sensor
 
-![Clas Ohlson Sensor](ClasOhlsonSensori.png?resize=150 "ClasOhlsonSensori")
+![Clas Ohlson Sensor](ClasOhlsonSensori.png?lightbox=1024&resize=150 "ClasOhlsonSensori")
 
 #### Suomen Lämpömittari Sensor
 
-![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg?lightbox=1024,resize=400 "SuomenLampomittariSensori")
+![Suomen Lämpömittari Sensor](SuomenLampomittariSensori.jpg?lightbox=1024&resize=400 "SuomenLampomittariSensori")
 
 ## Sensors with Zigbee
 
