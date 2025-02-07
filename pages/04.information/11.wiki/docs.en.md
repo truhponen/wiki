@@ -4,6 +4,8 @@ date: '17:55 04-02-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /wiki
 ---
 
 Wiki contains information about [home automation](/welcome).
