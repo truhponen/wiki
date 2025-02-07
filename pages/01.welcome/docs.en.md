@@ -15,7 +15,7 @@ You can dig deeper from different angles:
 * [Hardware](/hardware) describes physical devices used for home automation
 * [Software](/software) describe different types of applications that are used in Kotimme-architecture.
    * [Embedded software](/embedded-software) lists software I have manually flashed to devices
-   * [Operating and file systems](/operating-and-file-systems) describes operating systems used in infrastructure devices
+   * [Operating and file systems](/operating-and-file-systems) describes operating systems used in [computers](/computers)
    * [Container applications](/container-application)
    * [OS applications](/os-applications)
 
