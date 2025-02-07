@@ -12,4 +12,4 @@ There is several types of networks.
 * [Local area network](/lan)
 * [Zigbee network](/zigbee-network)
 * [Philips Hue network](/philips-hue-network)
-* [Docker network](/docker-netwok)
+* [Docker network](/docker-network)
