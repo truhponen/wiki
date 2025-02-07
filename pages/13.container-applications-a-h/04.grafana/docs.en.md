@@ -4,6 +4,8 @@ date: '21:41 22-12-2024'
 taxonomy:
     category:
         - docs
+routes:
+    default: /grafana
 ---
 
 Grafana is used to visualize [Influx DB](/influx-db) data.
