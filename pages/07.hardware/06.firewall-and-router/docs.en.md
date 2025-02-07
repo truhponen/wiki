@@ -4,6 +4,8 @@ date: '21:29 21-12-2024'
 taxonomy:
     category:
         - docs
+routes:
+    default: /firewall-and-router
 ---
 
 There is firewall between public internet and private net.
