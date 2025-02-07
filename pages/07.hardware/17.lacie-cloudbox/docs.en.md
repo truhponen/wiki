@@ -4,6 +4,8 @@ date: '19:32 04-02-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /lacie-cloudbox
 ---
 
 Lacie Cloudbox was network storage solution before [HDD dock](/hdd-dock).
