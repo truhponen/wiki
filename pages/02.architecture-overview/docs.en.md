@@ -7,7 +7,7 @@ taxonomy:
 media_order: 'Kotimme - architecture.png'
 ---
 
-![Kotimme%20-%20architecture](Kotimme%20-%20architecture.png?lightbox=1024 "Kotimme%20-%20architecture")
+![Kotimme%20-%20architecture](Kotimme%20-%20architecture.png?lightbox=1024&resize=500 "Kotimme%20-%20architecture")
 
 ### Links to content
 * [433MHz adapter](/433mhz-adapter)
