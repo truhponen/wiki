@@ -4,6 +4,8 @@ date: '19:50 04-02-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /containers
 ---
 
 Containers are set of software and dependencies stored in "container image".
