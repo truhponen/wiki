@@ -19,5 +19,4 @@ You can dig deeper from different angles:
    * [OS applications](/os-applications) lists applications which are running on operating systems
    * [Container applications](/container-application) lists applications which are running on container
 
-
 Most detailed documentation is in [configuration](/configurations) files of each application in form of comments.
