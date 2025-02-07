@@ -8,4 +8,4 @@ routes:
     default: /docker-network
 ---
 
-Docker network is formed between [docker container](/docker). It is separated from[ local area network](/lan) for security purposes.
+Docker network is formed between [docker container](/docker). Docker network is separate from [local area network](/lan) which increases security.
