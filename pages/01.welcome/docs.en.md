@@ -14,10 +14,10 @@ You can dig deeper from different angles:
 * [Cloud infrastructure](/cloud-infrastructure) describes cloud solutions used for home automation
 * [Hardware](/hardware) describes physical devices used for home automation
 * [Software](/software) describe different types of applications that are used in Kotimme-architecture.
+   * [Embedded software](/embedded-software) lists software I have manually flashed to devices
    * [Operating and file systems](/operating-and-file-systems) describes operating systems used in infrastructure devices
    * [Container applications](/container-application)
    * [OS applications](/os-applications)
-   * [Embedded software](/embedded-software) 
 
 
 Most detailed documentation is in [configuration](/configurations) files of each application in form of comments.
