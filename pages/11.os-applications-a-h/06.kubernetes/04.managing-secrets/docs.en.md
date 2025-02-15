@@ -44,7 +44,7 @@ type: Opaque
 **Option 1**
 
 ```
-        image: influxdb:2.7.11
+        image: docker.io/telegraf:1.33.2
         env:
         - name: INFLUX_TOKEN
           valueFrom:
@@ -55,8 +55,8 @@ type: Opaque
 **Option 2**
 
 ```
-    image: influxdb:2.7.11
+    image: docker.io/telegraf:1.33.2
     envFrom:
     - secretRef:
-        name: test-secret
+        name: telegraf-mqtt-influxdb-access-token
  ```
