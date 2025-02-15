@@ -18,7 +18,7 @@ This creates generic secret named "telegraf-mqtt-influxdb-access-token" to "anal
 
     kubectl create secret generic telegraf-mqtt-influxdb-access-token --from-literal=INFLUX_TOKEN=66GqMW [...] -em1K3O_SXGu4XOXw== -n analytics
  
-In this version key is name of expected environmental variable "INFLUX_TOKEN".
+In this version key is the name of environmental variable "INFLUX_TOKEN".
  
 
 #### View secret
@@ -53,6 +53,8 @@ type: Opaque
               key: token
 ```
 **Option 2**
+
+Whe key is the name of environmental variable configuration is simpler.
 
 ```
     image: docker.io/telegraf:1.33.2
