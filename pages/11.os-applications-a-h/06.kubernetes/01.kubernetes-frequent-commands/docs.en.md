@@ -10,6 +10,10 @@ Add shorthands
 
     alias k="kubectl" d="kubectl describe" g="kubectl get"
 
+Stop application by scaling statefulset to 0 replicas
+
+    kubectl scale statefulset.apps/influxdb -n analytics --replicas=0
+
 Install Flannel (https://github.com/flannel-io/flannel)
 
     kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
