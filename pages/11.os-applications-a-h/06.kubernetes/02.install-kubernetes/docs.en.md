@@ -11,8 +11,3 @@ taxonomy:
 3. Make sure that configs exist for kubernetes user
 4. Install must-have aplications
 5. Add nodes to cluster
-
-
-Install Flannel (https://github.com/flannel-io/flannel)
-
-    kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
