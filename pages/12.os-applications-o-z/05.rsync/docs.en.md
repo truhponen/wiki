@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: rsync
+    default: /rsync
 ---
 
  
