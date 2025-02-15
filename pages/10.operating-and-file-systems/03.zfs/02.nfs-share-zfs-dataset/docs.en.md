@@ -17,8 +17,6 @@ taxonomy:
 ```no_subtree_check``` is default value but just stated explicitly
 
 ```no_root_squash``` allows root user on the client side have root rights on host side.
-
-
    
 #### Make sharenfs value inherited
 
