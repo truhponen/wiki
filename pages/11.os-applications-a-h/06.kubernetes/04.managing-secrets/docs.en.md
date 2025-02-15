@@ -8,10 +8,18 @@ taxonomy:
 
 #### Create secret in CLI
 
-     k create secret generic telegraf-mqtt-influxdb-access-token --from-literal=token=66GqMW [...] -em1K3O_SXGu4XOXw== -n analytics
+**Option 1**
+
+     kubectl create secret generic telegraf-mqtt-influxdb-access-token --from-literal=token=66GqMW [...] -em1K3O_SXGu4XOXw== -n analytics
 
 This creates generic secret named "telegraf-mqtt-influxdb-access-token" to "analytics"-namespace. Secret is in key "token".
 
+**Option 2**
+
+    kubectl create secret generic telegraf-mqtt-influxdb-access-token --from-literal=INFLUX_TOKEN=66GqMW [...] -em1K3O_SXGu4XOXw== -n analytics
+ 
+In this version key is name of expected environmental variable "INFLUX_TOKEN".
+ 
 
 #### View secret
 
@@ -33,8 +41,10 @@ type: Opaque
 
 #### Using as environmental variable
 
+**Option 1**
 
 ```
+        image: influxdb:2.7.11
         env:
         - name: INFLUX_TOKEN
           valueFrom:
@@ -42,3 +52,11 @@ type: Opaque
               name: telegraf-mqtt-influxdb-access-token
               key: token
 ```
+**Option 2**
+
+```
+    image: influxdb:2.7.11
+    envFrom:
+    - secretRef:
+        name: test-secret
+ ```
