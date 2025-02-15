@@ -8,9 +8,14 @@ routes:
     default: /rsync
 ---
 
- 
-    rsync -av /mnt/lacie-cloudbox/Elvis/* /oricopool-1/media/documents/elvis > ~/transfer-elvis.log 2>&1 &
+Sync folder to another machine
 
-Using asterisk results in excluding hidden files
+    rsync -av /kube-storage/analytics/ root@192.168.68.150:/rpool/kubernetes/analytics/
 
-    rsync -av /mnt/lacie-cloudbox/Elvis/ /oricopool-1/media/documents/elvis > ~/transfer-elvis.log 2>&1 &
+Using asterisk results in excluding hidden files  
+
+    rsync -av /kube-storage/analytics/* root@192.168.68.150:/rpool/kubernetes/analytics/
+
+Omitting trailing slash copies "analytics"-folder also, not just content 
+
+    rsync -av /kube-storage/analytics root@192.168.68.150:/rpool/kubernetes/
