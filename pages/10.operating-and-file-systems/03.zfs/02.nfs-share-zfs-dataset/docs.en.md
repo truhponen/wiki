@@ -8,4 +8,8 @@ taxonomy:
 
 Set sharenfs value
 
-    zfs set sharenfs="rw=@192.168.68.0/24" oricopool-1/backup
+    zfs set sharenfs="rw=@192.168.68.0/24,rw,sync,no_subtree_check,no_root_squash" oricopool-1/backup
+   
+Make sharenfs value inherited
+
+    zfs inherit sharenfs rpool/kubernetes/analytics
