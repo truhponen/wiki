@@ -9,6 +9,12 @@ taxonomy:
 Set sharenfs value
 
     zfs set sharenfs="rw=@192.168.68.0/24,rw,sync,no_subtree_check,no_root_squash" oricopool-1/backup
+ 
+```rw``` stands for read and write access
+
+```no_root_squash``` allows root user on the client side have root rights on host side.
+
+
    
 Make sharenfs value inherited
 
