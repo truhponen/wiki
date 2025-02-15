@@ -8,7 +8,9 @@ taxonomy:
 
 #### Bootstrap cluster
 
-related shell script https://github.com/truhponen/home/blob/main/kubernetes/kubernetes-crio-flannel.sh
+Shell script
+
+    curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/bash/kubernetes-crio-flannel.sh | bash
 
 Run as kubernetes sudo user
 
