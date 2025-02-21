@@ -8,7 +8,7 @@ taxonomy:
 
 Add shorthands
 
-    alias k="kubectl" d="kubectl describe" g="kubectl get"
+    alias k="kubectl" d="kubectl describe" g="kubectl get" a="kubectl apply"
 
 Stop application by scaling statefulset to 0 replicas
 
