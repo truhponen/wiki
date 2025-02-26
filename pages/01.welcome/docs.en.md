@@ -7,7 +7,7 @@ taxonomy:
 media_order: kotimme.svg
 ---
 
-![kotimme](kotimme.svg "kotimme"?resize=100 "Kotimme-logo")
+![kotimme](kotimme.svg?resize=100 "Kotimme-logo")
 
 This wiki documents [architecture](/architecture-overview) and instructions of our home automation.
 
