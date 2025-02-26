@@ -4,7 +4,9 @@ date: '23:42 21-12-2024'
 taxonomy:
     category:
         - docs
+media_order: kotimme.svg
 ---
+
 
 This wiki documents [architecture](/architecture-overview) and instructions of our home automation.
 
