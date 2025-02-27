@@ -4,6 +4,8 @@ date: '11:45 27-01-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /flannel
 ---
 
 Install Flannel CNI
