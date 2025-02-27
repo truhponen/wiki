@@ -4,6 +4,8 @@ date: '07:40 27-01-2025'
 taxonomy:
     category:
         - docs
+routes:
+    default: /purelb
 ---
 
 PureLB is bare metal load balancer.
