@@ -1,10 +1,12 @@
 ---
-title: 'PureLB load balancer'
+title: PureLB
 date: '07:40 27-01-2025'
 taxonomy:
     category:
         - docs
 ---
+
+PureLB is bare metal load balancer.
 
 ### Installation
 
