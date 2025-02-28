@@ -6,6 +6,8 @@ taxonomy:
         - docs
 ---
 
+[CSI-driver NFS](/csi-driver-nfs) needs to be installed
+
 1. [Setup NFS share](/nfs/zfs-nfs)
 
 2. Create PersistentVolumeClaim
