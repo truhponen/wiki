@@ -6,30 +6,14 @@ taxonomy:
         - docs
 ---
 
-[Setup NFS share](/nfs/zfs-nfs)
+1. [Setup NFS share](/nfs/zfs-nfs)
 
-Chown folder
+2. Create PersistentVolumeClaim
 
-Add CSI driver repo
+   * Example: [https://raw.githubusercontent.com/truhponen/home/refs/heads/main/base/PersistentVolumeClaim.yaml](https://raw.githubusercontent.com/truhponen/home/refs/heads/main/base/PersistentVolumeClaim.yaml)
+   * It seems that Size of PersistentVolumeClaim and PersistentVolume needs to be the same
 
-    helm repo add csi-driver-nfs https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/master/charts
+3. Create PersistentVolume
 
-Install CSI driver
-
-    helm install csi-driver-nfs csi-driver-nfs/csi-driver-nfs --namespace kube-system --version v4.10.0
-
-Validate that controller are running 
-
-    kubectl -n kube-system get pod -o wide -l app=csi-nfs-controller
-
-Validate that controller are running
-
-    kubectl -n kube-system get pod -o wide -l app=csi-nfs-node
-
-Apply storage class
-
-    kubectl apply -f https://github.com/truhponen/home/blob/main/kubernetes/storage-class-kubernetes-nfs.yaml
-
-Test setup e.g. applying Kubernetes ["Creating a StatefulSet"-tutorial ](https://kubernetes.io/docs/tutorials/stateful-application/basic-stateful-set/#creating-a-statefulset)
-
-    kubectl apply -f https://k8s.io/examples/application/web/web.yaml
+   * Example: [https://raw.githubusercontent.com/truhponen/home/refs/heads/main/base/PersistentVolume-prod.yaml](https://raw.githubusercontent.com/truhponen/home/refs/heads/main/base/PersistentVolume-prod.yaml)
+   * AccessMode "ReadWriteMany" is important if there is multiple containers using same claim
