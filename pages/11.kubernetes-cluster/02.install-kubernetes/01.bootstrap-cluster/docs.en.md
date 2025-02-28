@@ -10,7 +10,7 @@ taxonomy:
 
 Shell script
 
-    curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/bash/bootstrap-bare-metal-cluster.sh | bash
+    curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/cluster/bootstrap-bare-metal-cluster.sh | bash
 
 Run as kubernetes sudo user
 
