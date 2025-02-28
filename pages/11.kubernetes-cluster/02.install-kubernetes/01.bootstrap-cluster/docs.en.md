@@ -14,12 +14,15 @@ Shell script
 
 Run as kubernetes sudo user
 
-Install basics:
+Installs basics:
 * Container runtime: cri-o
 * Kubernetes node agent: kubelet
 * Kubernetes build tool: kubeadm
 * Kubernetes command line tool: kubectl
-* Kubernetes application management tool: helm
+* Kubernetes "application management" tool: [helm](/helm)
+* [Flannel](/flannel) container networking with Helm
+* [PureLB](/purelb) bare metal loadbalancer with Helm
+* [Traefik](/traefik) Ingress controller with Helm and customizations
 
 Make important host configs
 
