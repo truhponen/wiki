@@ -6,30 +6,24 @@ taxonomy:
         - docs
 ---
 
-#### Bootstrap cluster
+#### 1. Install Container runtime Cri-o, Kubelet, Kubeadm, Kubectl and Helm and initializes Kubernetes
 
-Shell script
+Run as root
 
-    curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/cluster/bootstrap-bare-metal-cluster.sh | bash
+    sudo -i
 
-Run as kubernetes sudo user
+    curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/cluster/1-bootstrap-bare-metal-cluster.sh | bash
 
-Installs basics:
-* Container runtime: cri-o
-* Kubernetes node agent: kubelet
-* Kubernetes build tool: kubeadm
-* Kubernetes command line tool: kubectl
-* Kubernetes "application management" tool: [helm](/helm)
-* [Flannel](/flannel) container networking with Helm
-* [PureLB](/purelb) bare metal loadbalancer with Helm
-* [Traefik](/traefik) Ingress controller and customizations with Helm
+#### 2. Configure admin user
 
-Make important host configs
+Run as admin user
 
-    swapoff -a
-    modprobe br_netfilter
-    sysctl -w net.ipv4.ip_forward=1
+    curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/cluster/2-create-user-configurations | bash
 
-Run init with default CIDR
+#### 3. Install Container networking, bare metal load balancer, ingress controller and CSI-driver for NFS using Helm
 
-    kubeadm init --pod-network-cidr=10.244.0.0/16
+If you have only single node
+
+    kubectl taint nodes $(hostname) node-role.kubernetes.io/control-plane:NoSchedule-
+
+    curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/cluster/3-add-cluster-applications.sh | bash
