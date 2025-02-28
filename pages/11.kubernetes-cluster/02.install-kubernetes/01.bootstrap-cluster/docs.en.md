@@ -22,7 +22,7 @@ Installs basics:
 * Kubernetes "application management" tool: [helm](/helm)
 * [Flannel](/flannel) container networking with Helm
 * [PureLB](/purelb) bare metal loadbalancer with Helm
-* [Traefik](/traefik) Ingress controller with Helm and customizations
+* [Traefik](/traefik) Ingress controller and customizations with Helm
 
 Make important host configs
 
