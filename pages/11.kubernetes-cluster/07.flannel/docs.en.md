@@ -8,6 +8,8 @@ routes:
     default: /flannel
 ---
 
+Flannel provides container networking. In practice, it assigns IPs for containers.
+
 Install Flannel CNI
 
     kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
