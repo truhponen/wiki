@@ -20,10 +20,15 @@ Run as admin user
 
     curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/cluster/2-create-user-configurations | bash
 
-#### 3. Install Container networking, bare metal load balancer, ingress controller and CSI-driver for NFS using Helm
+#### Add nodes to cluster
 
+kubeadm join 192.168.68.160:6443 --token c6fpgz.dfnujkwgq9hwt604 \
+        --discovery-token-ca-cert-hash sha256:a1e8df44f4bbc92a9f492d7d8709b10c83f0c744ea755a17b95e5cbf42d10d02 
+        
 If you have only single node
 
     kubectl taint nodes $(hostname) node-role.kubernetes.io/control-plane:NoSchedule-
+
+#### 3. Install Container networking, bare metal load balancer, ingress controller and CSI-driver for NFS using Helm
 
     curl https://raw.githubusercontent.com/truhponen/home/refs/heads/main/cluster/3-add-cluster-applications.sh | bash
