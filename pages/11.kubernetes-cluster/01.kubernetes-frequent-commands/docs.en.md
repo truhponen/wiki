@@ -10,6 +10,10 @@ Add shorthands
 
     alias k="kubectl" d="kubectl describe" g="kubectl get" a="kubectl apply"
 
+Access to container
+
+   kubectl exec --stdin --tty grav-0 -- /bin/bash
+
 Stop application by scaling statefulset to 0 replicas
 
     kubectl scale statefulset.apps/influxdb -n analytics --replicas=0
