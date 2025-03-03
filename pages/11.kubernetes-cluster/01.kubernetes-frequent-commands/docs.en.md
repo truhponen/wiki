@@ -8,10 +8,8 @@ taxonomy:
 
 Config that are needed after reboot. Run as root
 
-```
-swapoff -a
-modprobe br_netfilter
-```
+    swapoff -a
+    modprobe br_netfilter
 
 Add shorthands
 
