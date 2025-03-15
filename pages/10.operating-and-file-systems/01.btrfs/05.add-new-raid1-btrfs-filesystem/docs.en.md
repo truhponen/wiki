@@ -21,17 +21,17 @@ Assuming you have two btrfs-partitions
 
         mount /dev/sda1 /mnt/btrfs
 
-4. Add the second drive to forder >> storage capacity is combination of both drives
+4. Add the second drive to folder >> storage capacity is combination of both drives
 
-        btrfs device add /dev/nvme0n1p3 /data -f
+        btrfs device add /dev/nvme0n1p3 /mnt/btrfs -f
 
 5. Start balancing data and metadata in raid1 mode
 
-        btrfs balance start -dconvert=raid1 -mconvert=raid1 /data
+        btrfs balance start -dconvert=raid1 -mconvert=raid1 /mnt/btrfs
 
 6. Check that there is now warnings
 
-        btrfs filesystem df /data
+        btrfs filesystem df /mnt/btrfs
 
 7. Check how filesystems look like
 
