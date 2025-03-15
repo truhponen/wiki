@@ -8,4 +8,4 @@ taxonomy:
 
 Create SSH key
 
-    ssh-keygen -t ed25519 -C "kubernetes git"
+    ssh-keygen -t ed25519 -C "your@email.com"
