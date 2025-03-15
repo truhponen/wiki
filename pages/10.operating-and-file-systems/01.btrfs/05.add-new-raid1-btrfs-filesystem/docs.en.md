@@ -7,35 +7,48 @@ child_type: docs
 routes: {  }
 ---
 
-Assuming you have two btrfs-partitions
+Assuming you have one btrfs partition used as root (/) and you want to create RAID 1 using another partition
 
 1. Check btrfs filesystem
 
         btrfs filesystem show
 
-2. Create folder
+2. Add another partition to root
 
-        mkdir /mnt/btrfs
+        btrfs device add /dev/sdb1 /
 
-3. Mount one of drives to folder
+3. Check filesystem
 
-        mount /dev/sda1 /mnt/btrfs
+        btrfs filesystem show
 
-4. Add the second drive to folder >> storage capacity is combination of both drives
+    Result is something like
+    
+    ```
+    Label: none  uuid: 2601731d-934b-4c18-90fa-aa9cc61ced98
+    Total devices 2 FS bytes used 6.47GiB
+    devid    1 size 119.24GiB used 10.02GiB path /dev/sda2
+    devid    2 size 119.24GiB used 0.00B path /dev/sdb1
+    ```
 
-        btrfs device add /dev/nvme0n1p3 /mnt/btrfs -f
+4. Start RAID1
+
+        btrfs balance start -dconvert=raid1 -mconvert=raid1 /
 
 5. Start balancing data and metadata in raid1 mode
 
         btrfs balance start -dconvert=raid1 -mconvert=raid1 /mnt/btrfs
 
-6. Check that there is now warnings
+6. Check file system usage
 
-        btrfs filesystem df /mnt/btrfs
+        btrfs filesystem df /
 
-7. Check how filesystems look like
+    When balancing is going on there is warning
+    
+    ```
+    WARNING: Multiple block group profiles detected, see 'man btrfs(5)'
+    WARNING:    Data: single, raid1
+    ```
 
-        btrfs filesystem show
 
 ### Another way
 
