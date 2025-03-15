@@ -15,11 +15,11 @@ Assuming you have two btrfs-partitions
 
 2. Create folder
 
-        mkdir /data
+        mkdir /mnt/btrfs
 
 3. Mount one of drives to folder
 
-        mount /dev/sda1 /data
+        mount /dev/sda1 /mnt/btrfs
 
 4. Add the second drive to forder >> storage capacity is combination of both drives
 
