@@ -8,9 +8,9 @@ routes:
     default: /rsync
 ---
 
-Sync folder to another machine
+Sync current folder (.) to another machine (192.168.68.150)
 
-    rsync -av /kube-storage/analytics/ root@192.168.68.150:/rpool/kubernetes/analytics/
+    rsync -av . root@192.168.68.150:/rpool/kubernetes/prod/
 
 Using asterisk results in excluding hidden files  
 
