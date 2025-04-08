@@ -6,10 +6,15 @@ taxonomy:
         - docs
 ---
 
-Config that are needed after reboot. Run as root
+Config that are needed after reboot. Run as root.
 
     swapoff -a
     modprobe br_netfilter
+
+Check previous. Run as root.
+
+    lsmod | grep netfilt
+    swapon --show
 
 Add shorthands
 
