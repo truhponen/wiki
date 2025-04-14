@@ -8,7 +8,7 @@ taxonomy:
 
 Remove claim from persistent volume
 
-    kubectl patch pv pv-for-rabbitmq -p '{"spec":{"claimRef": null}}'
+    kubectl patch pv nfs-cluster -p '{"spec":{"claimRef": null}}'
 
 Used for static provisioning
 
