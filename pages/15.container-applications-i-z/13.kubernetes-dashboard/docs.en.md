@@ -8,4 +8,4 @@ taxonomy:
 
 Kubernetes Dashboard is graphical UI for [Kubernetes cluster](/kubernetes).
 
-Users of Kubernetes Cluster are authenticated with Oauth2 Proxy. 
+Users of Kubernetes Cluster are authenticated with [Oauth2 Proxy](/oauth2-proxy). 
