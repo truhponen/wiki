@@ -10,6 +10,10 @@ Config that are needed after reboot. Run as root.
 
     swapoff -a
     modprobe br_netfilter
+    
+Permanent change for "swapoff -a": comment out swap from /etc/fstab
+ 
+Permanent change for "modprobe br_netfilter": comment out swap from /etc/fstab
 
 Check previous. Run as root.
 
