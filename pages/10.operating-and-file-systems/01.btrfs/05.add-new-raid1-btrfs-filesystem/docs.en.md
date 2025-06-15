@@ -13,9 +13,9 @@ Assuming you have one btrfs partition used as root (/) and you want to create RA
 
         btrfs filesystem show
 
-2. Add another partition to root
+2. Add another partition to root with force
 
-        btrfs device add /dev/sdb1 /
+        btrfs device add /dev/sdb1 / -f
 
 3. Check filesystem
 
@@ -30,13 +30,9 @@ Assuming you have one btrfs partition used as root (/) and you want to create RA
     devid    2 size 119.24GiB used 0.00B path /dev/sdb1
     ```
 
-4. Start RAID1
+4. Start RAID1 in root (/)
 
         btrfs balance start -dconvert=raid1 -mconvert=raid1 /
-
-5. Start balancing data and metadata in raid1 mode
-
-        btrfs balance start -dconvert=raid1 -mconvert=raid1 /mnt/btrfs
 
 6. Check file system usage
 
@@ -48,16 +44,3 @@ Assuming you have one btrfs partition used as root (/) and you want to create RA
     WARNING: Multiple block group profiles detected, see 'man btrfs(5)'
     WARNING:    Data: single, raid1
     ```
-
-
-### Another way
-
-Replaces steps 3 - 5
-
-1. Before mounting 
-
-        mkfs.btrfs --data raid1 --metadata raid1 /dev/sda1 /dev/nvme0n1p3
-
-2. Mount to folder
-
-        mount /dev/sda1 /data
