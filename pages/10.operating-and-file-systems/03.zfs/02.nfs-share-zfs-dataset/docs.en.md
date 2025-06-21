@@ -21,3 +21,7 @@ taxonomy:
 #### Make sharenfs value inherited
 
     zfs inherit sharenfs rpool/kubernetes/analytics
+    
+#### View current shares
+
+    zfs get sharenfs
