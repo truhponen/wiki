@@ -8,6 +8,3 @@ media_order: kotimme.png
 ---
 
 B-tree tutorial: [https://youtu.be/C_q5ccN84C8](https://youtu.be/C_q5ccN84C8)
-
-# Icons
-![kotimme](kotimme.png "kotimme")
