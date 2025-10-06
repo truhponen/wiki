@@ -8,5 +8,3 @@ media_order: computer-network.png
 ---
 
 B-tree tutorial: [https://youtu.be/C_q5ccN84C8](https://youtu.be/C_q5ccN84C8)
-
-![computer-network](computer-network.png "computer-network")
