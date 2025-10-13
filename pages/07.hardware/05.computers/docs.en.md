@@ -16,8 +16,9 @@ There is total 5 computers used for home automation / lab purposes.
 
 Computers are used for clusters.
 
-* 3 computers form [Proxmox](/proxmox) cluster.
-* 2 computers form [Kubernetes](/kubernetes) cluster.
+* 3 computers form [Kubernetes](/kubernetes) cluster.
+* 1 computer runs [Proxmox](/proxmox). Earlier Proxmox-cluster was disbanded.
+
 
 
 ![Some computers](20250119_214523.jpg?lightbox=1280&resize=500 "My server rack :)")
