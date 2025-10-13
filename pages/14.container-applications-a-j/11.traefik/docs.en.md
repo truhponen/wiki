@@ -5,7 +5,7 @@ taxonomy:
     category:
         - docs
 routes:
-    default: /haproxy
+    default: /traefik
 ---
 
 Traefik is reverse proxy and load balancer. It has central role when [accessing applications](/access-to-applications).
