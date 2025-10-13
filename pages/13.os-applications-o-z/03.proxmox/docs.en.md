@@ -8,11 +8,11 @@ taxonomy:
         - docs
 ---
 
-Proxmox is Debian [Linux](/linux) based virtualization cluster. Promox [cluster](/https://pve.proxmox.com/pve-docs/chapter-pvecm.html) consists three [computers](/amd64-computers). Three computers are needed to have [quorum](/https://pve.proxmox.com/pve-docs/chapter-pvecm.html).
+Proxmox is Debian [Linux](/linux) based virtualization solution. Promox [cluster](/https://pve.proxmox.com/pve-docs/chapter-pvecm.html) has been disbanded. It consisted three [computers](/amd64-computers). Three computers was needed to have [quorum](/https://pve.proxmox.com/pve-docs/chapter-pvecm.html).
 
 Proxmox is mainly used for running [LXC containers](/lxc).
 
-Current Proxmox cluster is not ["high availability"](https://pve.proxmox.com/pve-docs/chapter-ha-manager.html) cluster.
+Proxmox cluster was not ["high availability"](https://pve.proxmox.com/pve-docs/chapter-ha-manager.html) cluster.
 
 **Sources:**
 
