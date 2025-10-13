@@ -14,4 +14,4 @@ Ready container images are available e.g. in
 * [https://hub.docker.com/](https://hub.docker.com/)
 * [Github](/github)
 
-Kotimme-architecture uses only ready images which are just [configured](/configurations) accordingly.
+Kotimme-architecture uses mainly ready images which are just [configured](/configurations) accordingly.
