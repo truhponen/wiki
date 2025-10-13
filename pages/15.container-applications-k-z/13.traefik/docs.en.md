@@ -12,6 +12,8 @@ Traefik is reverse proxy and load balancer. It has central role when [accessing 
 
 Traefik can be accessed either through [Cloudflare](/cloudflare) tunnel or [local network](/lan). Traefik has no open ports to public internet.
 
+Traefik replaced earlier [HAProxy](/haproxy)
+
 
 **External sources:**
-* 
+* [https://doc.traefik.io/traefik/](https://doc.traefik.io/traefik/)
