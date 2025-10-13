@@ -8,7 +8,9 @@ routes:
     default: /kubernetes
 ---
 
-Kubernetes is currently tested if it could replace current [LXC](/lxc) and [Docker](/docker) combo.
+Kubernetes has replaced previous [LXC](/lxc) and [Docker](/docker) combo.
+
+Kubernetes is "bare metal cluster" with three [computers](/computers).
 
 Kubernetes [configuration](/configurations) are managed in [Github](/github).
 
