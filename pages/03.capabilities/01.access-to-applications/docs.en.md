@@ -10,7 +10,7 @@ routes:
 
 Most of [container applications](/container-applications) have [subdomains](/domains) that can be used from internet and [home network](/lan). This enhances usability as you don't need to remember IPs and ports. Also Cloudflare's [SSH browser rendering](/ssh-from-outside-of-home-network) has own [subdomains](/domains).
 
-Central part of solution is [HAproxy](/haproxy) that forwards traffic to different [container applications](/container-applications). Traffic related to Cloudflare's [SSH browser rendering](/ssh-from-outside-of-home-network) doesn't go to [HAproxy](/haproxy).
+Central part of solution is [Traefik](/traefik) that forwards traffic to different [container applications](/container-applications). Traffic related to Cloudflare's [SSH browser rendering](/ssh-from-outside-of-home-network) doesn't go to [HAproxy](/haproxy).
 
 If [user](/users) is in public internet or using [Cloudflare Warp-client](/cloudflare).... 
 1. authoritative DNS for kotimme.cc-domain is [Cloudflare DNS](/cloudflare)
