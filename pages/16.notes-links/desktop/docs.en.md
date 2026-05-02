@@ -33,3 +33,8 @@ taxonomy:
 - Scanner
  - Gnome Document scanner (simple-scan)
  - Canon Scangear (scangearmp2-sane-git)
+- Screen capture
+ - Slurp
+ - Grim
+ - Satty
+  - Config
