@@ -16,4 +16,8 @@ taxonomy:
  - Rules:
 - cc.kotimme.desktop-files:
  - icons:
- - 
+- Applications
+ - Edge
+ - Brave
+ - Neovim
+ - Dust
