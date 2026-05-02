@@ -6,13 +6,13 @@ taxonomy:
         - docs
 ---
 
-- CachyOs, Niri, Noctalia
+- CachyOs, Niri, Noctalia: https://wiki.cachyos.org/installation/desktop_environments/
  - Niri config:
  - Noctalia config:
  - Wallpapers:
-- SDDM Silent Theme
- - Configs
-- Solaar:
+- SDDM Silent Theme: https://github.com/uiriansan/SilentSDDM
+ - Configs:
+- Solaar: https://github.com/pwr-Solaar/Solaar
  - Rules:
 - cc.kotimme.desktop-files:
  - icons:
@@ -29,3 +29,5 @@ taxonomy:
  - Teams (Edge PWA)
  - Xournal++
 - Scanner
+ - Gnome Document scanner (simple-scan)
+ - Canon Scangear (scangearmp2-sane-git)
