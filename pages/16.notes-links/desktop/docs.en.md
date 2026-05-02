@@ -37,4 +37,4 @@ taxonomy:
  - Slurp
  - Grim
  - Satty
-  - Config
+     - Config
