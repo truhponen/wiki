@@ -17,7 +17,15 @@ taxonomy:
 - cc.kotimme.desktop-files:
  - icons:
 - Applications
- - Edge
  - Brave
- - Neovim
  - Dust
+ - Edge
+ - Gimp
+ - Gnome Images (Nautilus)
+ - Gnome Files (Loupe)
+ - Inkscape
+ - Neovim
+ - Outlook (Edge PWA)
+ - Teams (Edge PWA)
+ - Xournal++
+- Scanner
