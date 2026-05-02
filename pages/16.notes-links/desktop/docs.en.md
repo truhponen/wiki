@@ -28,6 +28,7 @@ taxonomy:
  - Outlook (Edge PWA)
  - Teams (Edge PWA)
  - Xournal++
+ - Zoxide: https://zoxide.org/tutorials/install-arch-nixos/
 - Scanner
  - Gnome Document scanner (simple-scan)
  - Canon Scangear (scangearmp2-sane-git)
