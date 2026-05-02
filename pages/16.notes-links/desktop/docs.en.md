@@ -14,6 +14,7 @@ taxonomy:
  - Configs:
 - Solaar: https://github.com/pwr-Solaar/Solaar
  - Rules:
+ - udev-rule: https://github.com/pwr-Solaar/Solaar/blob/master/rules.d/42-logitech-unify-permissions.rules
 - cc.kotimme.desktop-files:
  - icons:
 - Applications
