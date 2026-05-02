@@ -10,5 +10,10 @@ taxonomy:
  - Niri config:
  - Noctalia config:
  - Wallpapers:
+- SDDM Silent Theme
+ - Configs
 - Solaar:
  - Rules:
+- cc.kotimme.desktop-files:
+ - icons:
+ - 
