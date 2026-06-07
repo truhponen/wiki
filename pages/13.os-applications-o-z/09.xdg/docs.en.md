@@ -4,6 +4,8 @@ date: '09:56 07-06-2026'
 taxonomy:
     category:
         - docs
+routes:
+    default: /xdg
 ---
 
 Set default program
