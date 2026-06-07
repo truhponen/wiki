@@ -8,4 +8,4 @@ routes:
     canonical: /infrastucture
 ---
 
-Hardware describes the physical devices and cloud services that form the basis for home automation as well desktop computers for daily tasks. 
+rHardware describes the physical devices and cloud services that form the basis for home automation as well desktop computers that are used for daily tasks. 
