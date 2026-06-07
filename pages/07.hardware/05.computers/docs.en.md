@@ -9,15 +9,17 @@ routes:
 media_order: 20250119_214523.jpg
 ---
 
-There is total 5 computers used for home automation / lab purposes.
+There is total 6 computers used for home automation / lab purposes.
 
 * 4 computers are different types of Dell Optiplex MFF-computers
 * 1 computer is Lenovo Thinkcentre MFF-computer
+* 1 computer is HP ProDesk 600 G3 MFF-computer
 
 Computers are used for clusters.
 
 * 3 computers form [Kubernetes](/kubernetes) cluster.
 * 1 computer runs [Proxmox](/proxmox). Earlier Proxmox-cluster was disbanded.
+* 2 computers are used as desktop computers running [Linux](/linux) desktop [distros](/desktop).
 
 
 
