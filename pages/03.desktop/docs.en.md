@@ -35,3 +35,35 @@ This page discribes the desktop computers setups. This is not related to homeaut
 * SVG editing: Inkscpace
 * PDF editing: Xournal++
 * Image viewer: Loupe ("Image viewer", Gnome)
+
+### Web apps
+Web pages which can be launched with .desktop-files in browser without decorations. Idea is copied from [Omarchy](https://omarchy.org/).
+* Personal browser: cc.kotimme.browser-personal.desktop
+* Work browser: cc.kotimme.browser-work.desktop
+* Google calendar: cc.kotimme.calendar.desktop
+* Claude: cc.kotimme.claude.desktop
+* FreshRSS: cc.kotimme.freshrss.desktop
+* Gmail: cc.kotimme.gmail.desktop
+* Home Assistant: cc.kotimme.homeassistant.desktop
+* Homepage: cc.kotimme.homepage.desktop
+* Helsingin Sanomat: cc.kotimme.hs.desktop
+* Kubernes dashboard: cc.kotimme.kubernetes.desktop
+* Let's Go Further web book: cc.kotimme.lets-go-further.desktop
+* Google Sheets: cc.kotimme.sheets.desktop
+* Spotify: cc.kotimme.spotify.desktop
+* Telegram: cc.kotimme.telegram.desktop
+* Whatsapp: cc.kotimme.whatsapp.desktop
+* X: cc.kotimme.x.desktop
+* Youtube: cc.kotimme.youtube.desktop
+
+Script to add new browser app. Script is partially copied from [Omarchy](https://omarchy.org/).
+* cc.kotimme.add-browser-app.desktop
+* cc.kotimme.browser-app.desktop
+
+### TUI apps
+CLI apps which can be launched with .desktop-files in terminal. Idea is copied from [Omarchy](https://omarchy.org/).
+* cc.kotimme.dust.desktop
+* cc.kotimme.k9s.desktop
+
+Script to add new TUI app. Script is partially copied from [Omarchy](https://omarchy.org/).
+* cc.kotimme.add-tui-app.desktop
