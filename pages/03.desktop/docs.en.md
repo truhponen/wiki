@@ -20,7 +20,7 @@ This page discribes the desktop computers setups. This is not related to homeaut
 
 ### Key apps
 * Terminal: Alacritty
-* File manager: Nautilus (Files, Gnome)
+* File manager: Nautilus ("Files", Gnome)
 * Browser: Microsoft Edge
 * Package manager: Shelly
 * Resource monitor: Btop++
@@ -31,7 +31,7 @@ This page discribes the desktop computers setups. This is not related to homeaut
 * Scanner utility: scangearmp2-sane-git + Simple scan
 
 ### Aditional apps
-* GIMP
-* Inkscpace
-* Xournal++
-* Loupe (image viewer, Gnome)
+* Image editing: GIMP
+* SVG editing: Inkscpace
+* PDF editing: Xournal++
+* Image viewer: Loupe ("Image viewer", Gnome)
