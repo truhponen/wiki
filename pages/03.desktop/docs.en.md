@@ -23,14 +23,13 @@ This page discribes the desktop computers setups. This is not related to homeaut
 * File manager: Nautilus ("Files", Gnome)
 * Browser: Microsoft Edge
 * Package manager: Shelly
-* Resource monitor: Btop++
 * Logitech utility: Solaar
 * Admin UI: Cockpit client
-* Kubernetes cluster management: K9s
 * Text editor: Neovim
 * Scanner utility: scangearmp2-sane-git + Simple scan
 
 ### Aditional apps
+* Resource monitor: Btop++
 * Image editing: GIMP
 * SVG editing: Inkscpace
 * PDF editing: Xournal++
@@ -62,8 +61,8 @@ Script to add new browser app. Script is partially copied from [Omarchy](https:/
 
 ### TUI apps
 CLI apps which can be launched with .desktop-files in terminal. Idea is copied from [Omarchy](https://omarchy.org/).
-* cc.kotimme.dust.desktop
-* cc.kotimme.k9s.desktop
+* Disk usage: cc.kotimme.dust.desktop
+* Kubernetes cluster: cc.kotimme.k9s.desktop
 
 Script to add new TUI app. Script is partially copied from [Omarchy](https://omarchy.org/).
 * cc.kotimme.add-tui-app.desktop
