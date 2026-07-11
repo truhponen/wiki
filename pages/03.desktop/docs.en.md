@@ -10,68 +10,108 @@ routes:
 
 This page discribes the desktop computers setups. This is not really related to homeautomation.
 
-* CachyOS 
-	* Limine boot loader
-		* own background
-	* Disk partion
-		* /boot: 4G
-		* / (root): 50G
-		* /home: the rest
-		* No swap partition
-	* No Desktop
-	* System manager
-		* systemd
-	* Command line shell
-		* fish shell
-* Display manager
-	* SDDM
-		* set Silent as the theme
-	* SDDM theme: Silent
-		* own dotfiles and background
-* Desktop
-	* Window manager
-		* Niri
-		* own dotfiles
-	* Shell (separate)
-		* Dank Material Shell
+### CachyOS 
+* Boot loader
+	* Limine (own background)
+* Disk partion
+	* /boot: 4G
+	* / (root): 50G
+	* /home: the rest
+	* No swap partition
+* No Desktop
+* System manager
+	* systemd
+		* systemctl --global add-wants niri.service dms
+		* systemctl --user add-wants dms.service shelly-notifications
+* Command line shell
+	* fish
+* Package manager
+	* Pacman + Shelly
 
+### Display manager
+* SDDM
+* SDDM theme: Silent (own dotfiles and background)
 
-### Key apps
-* Terminal: Alacritty
-* File manager: Nautilus ("Files", Gnome)
-* Browser: Microsoft Edge
-* Package manager: Shelly
-* Logitech utility: Solaar
-* Admin UI: Cockpit client
-* Text editor: Neovim
-* Scanner utility: scangearmp2-sane-git + Simple scan
+### Configs and shared assets 
+* dotfiles
+   	* /home/dotfiles/...
+* Browser & TUI apps
+	* /home/dotfiles/usr/share/applications
+* Wallpapers
+	* /home/wallpapers
+* Application icon
+   	* /home/dotfiles/usr/share/icons/hicolor/512x512/apps/
 
-### Aditional apps
-* Resource monitor: Btop++
-* Image editing: GIMP
-* SVG editing: Inkscpace
-* PDF editing: Xournal++
-* Image viewer: Loupe ("Image viewer", Gnome)
+### Desktop
+* Window manager
+	* Niri (dotfiles)
+* Shell
+	* Dank Material Shell (dotfiles)
+* Screenshots
+	* grim
+	* slurp
+	* satty (dotfiles)
+* Logitech utility
+	* Solaar (dotfiles)
+* Terminal
+	* Alacritty
+* File manager
+	* Nautilus ("Files", Gnome)
+* Image viewer
+   	* Loupe ("Image viewer", Gnome)
+* Browser:
+	* Microsoft Edge
+
+### Other Apps
+* Admin UI
+	* Cockpit client (Browser app)
+* Text editor
+	* Neovim
+* Scanner utility
+	* scangearmp2-sane-git + Simple scan
+* Resource monitor
+	* Btop++ (TUI app)
+* Image editing
+	* GIMP
+* SVG editing
+	* Inkscpace
 
 ### Web apps
 Web pages which can be launched with .desktop-files in browser without decorations. Idea is copied from [Omarchy](https://omarchy.org/).
-* Personal browser: cc.kotimme.browser-personal.desktop
-* Work browser: cc.kotimme.browser-work.desktop
-* Google calendar: cc.kotimme.calendar.desktop
-* Claude: cc.kotimme.claude.desktop
-* FreshRSS: cc.kotimme.freshrss.desktop
-* Gmail: cc.kotimme.gmail.desktop
-* Home Assistant: cc.kotimme.homeassistant.desktop
-* Homepage: cc.kotimme.homepage.desktop
-* Helsingin Sanomat: cc.kotimme.hs.desktop
-* Kubernes dashboard: cc.kotimme.kubernetes.desktop
-* Let's Go Further web book: cc.kotimme.lets-go-further.desktop
-* Google Sheets: cc.kotimme.sheets.desktop
-* Spotify: cc.kotimme.spotify.desktop
-* Telegram: cc.kotimme.telegram.desktop
-* Whatsapp: cc.kotimme.whatsapp.desktop
-* X: cc.kotimme.x.desktop
-* Youtube: cc.kotimme.youtube.desktop
+* Personal browser
+	* cc.kotimme.browser-personal.desktop
+* Work browser
+	* cc.kotimme.browser-work.desktop
+* Google calendar
+	* cc.kotimme.calendar.desktop
+* Claude
+	* cc.kotimme.claude.desktop
+* FreshRSS
+	* cc.kotimme.freshrss.desktop
+* Gmail
+	* cc.kotimme.gmail.desktop
+* Home Assistant
+	* cc.kotimme.homeassistant.desktop
+* Homepage
+	* cc.kotimme.homepage.desktop
+* Helsingin Sanomat
+	* cc.kotimme.hs.desktop
+* Kubernes dashboard
+	* cc.kotimme.kubernetes.desktop
+* Let's Go Further web book
+	* cc.kotimme.lets-go-further.desktop
+* Google Sheets
+	* cc.kotimme.sheets.desktop
+* Spotify
+	* cc.kotimme.spotify.desktop
+* Telegram
+	* cc.kotimme.telegram.desktop
+* Whatsapp
+	* cc.kotimme.whatsapp.desktop
+* X
+	* cc.kotimme.x.desktop
+* Youtube
+	* cc.kotimme.youtube.desktop
 
 Script to add new browser app. Script is partially copied from [Omarchy](https://omarchy.org/).
 * cc.kotimme.add-browser-app.desktop
