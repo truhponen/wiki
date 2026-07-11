@@ -8,15 +8,33 @@ routes:
     default: /desktop
 ---
 
-This page discribes the desktop computers setups. This is not related to homeautomation.
+This page discribes the desktop computers setups. This is not really related to homeautomation.
 
-### ## Environment
-* Distro: CachyOS
-* Display manager: SDDM
-* Window manager: Niri
-* Shell: Dank Material Shell
-* System manage: systemd
-* Command line shell: fish shell
+* CachyOS 
+	* Limine boot loader
+		* own background
+	* Disk partion
+		* /boot: 4G
+		* / (root): 50G
+		* /home: the rest
+		* No swap partition
+	* No Desktop
+	* System manager
+		* systemd
+	* Command line shell
+		* fish shell
+* Display manager
+	* SDDM
+		* set Silent as the theme
+	* SDDM theme: Silent
+		* own dotfiles and background
+* Desktop
+	* Window manager
+		* Niri
+		* own dotfiles
+	* Shell (separate)
+		* Dank Material Shell
+
 
 ### Key apps
 * Terminal: Alacritty
