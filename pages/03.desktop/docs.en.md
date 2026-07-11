@@ -12,7 +12,10 @@ This page discribes the desktop computers setups. This is not really related to 
 
 ### CachyOS 
 * Boot loader
-	* Limine (own background)
+	* Limine
+	* background
+		* sudo nano /boot/limine.conf
+		* sudo magick /home/wallpapers/wal_172619-water-5521696.png -blur 0x14 -brightness-contrast -15x0 /boot/wal_172619-water-5521696.png
 * Disk partion
 	* /boot: 4G
 	* / (root): 50G
