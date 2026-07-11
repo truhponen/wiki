@@ -113,9 +113,10 @@ Web pages which can be launched with .desktop-files in browser without decoratio
 * Youtube
 	* cc.kotimme.youtube.desktop
 
-Script to add new browser app. Script is partially copied from [Omarchy](https://omarchy.org/).
+Scripts to add new browser app. Script is partially copied from [Omarchy](https://omarchy.org/).
 * cc.kotimme.add-browser-app.desktop
-* cc.kotimme.browser-app.desktop
+
+Scripts use common "cc.kotimme.browser-app.desktop" browser app to launch.
 
 ### TUI apps
 CLI apps which can be launched with .desktop-files in terminal. Idea is copied from [Omarchy](https://omarchy.org/).
