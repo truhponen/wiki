@@ -4,8 +4,7 @@ date: '11:08 12-09-2026'
 taxonomy:
     category:
         - docs
-routes:
-    default: /pam
+routes: {  }
 ---
 
 Current greeter PAM-configuration.
