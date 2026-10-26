@@ -5,15 +5,19 @@ routes:
     default: /csi-driver-nfs
 ---
 
-"CSI NFS" is Container Storage Interface that allocates [NFS shares](/nfs) Persistent Storages to PersistentVolumeClaims
+"CSI NFS" is Container Storage Interface that allocates [NFS shares](/nfs) Persistent Storages to PersistentVolumeClaim
 
-	helm repo update csi-driver-nfs
+Update repo
 
+    helm repo update csi-driver-nfs
 
-	helm search repo csi-driver-nfs --versions
+Get versions
 
+    helm search repo csi-driver-nfs --versions
 
-    helm install csi-driver-nfs csi-driver-nfs/csi-driver-nfs --namespace csi-driver-nfs --version [add here the version]
+Upgrade to selected version
+
+    helm upgrade csi-driver-nfs csi-driver-nfs/csi-driver-nfs --namespace csi-driver-nfs --version [add here the version]
 
 
 source: [https://github.com/kubernetes-csi/csi-driver-nfs](https://github.com/kubernetes-csi/csi-driver-nfs)
